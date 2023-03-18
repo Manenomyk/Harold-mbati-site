@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
 import './App.css';
-import { BrowserRouter as Routes, Route, Router } from 'react-router-dom';
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
+
     <Router>
       <Routes>
-        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/' element={<Home/>} />
       </Routes>
     </Router>
   );
