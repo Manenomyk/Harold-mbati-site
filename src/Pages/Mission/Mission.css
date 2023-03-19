@@ -1,0 +1,53 @@
+.missionsection{
+    width: auto;
+    height: 85vh;
+    
+}
+.headline{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.missionContainer{
+    background-color: white;
+    margin-top: 2rem;
+    
+}
+.underline{
+    width: 7vw;
+    height: 4px;
+    background-color: #c32227;
+    /* margin-bottom: 80px; */
+}
+
+.youth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 60vh;
+    align-items: center;
+    
+}
+
+.slide1image{
+    background-image: url('../../Images/youth\ emp.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+.youthhead{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.slide2image{
+    background-image: url('../../Images/mother-child.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+.slide3image{
+    background-image: url('../../Images/gender.jpg');
+    height: 70vh;
+    background-size: cover;
+}

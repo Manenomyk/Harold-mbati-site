@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import * as home from "react-bootstrap";
 import logo from "../Images/logo.png";
-import youth from "../Images/youth emp.jpg";
 import mom from "../Images/mother-child.jpg";
 import img5 from "../Images/mbati5.jpg";
 import Mission from "./Mission/Mission";
@@ -62,7 +61,7 @@ function Home() {
         </home.Row>
       </home.Container>
 
-      <div className="mission">
+      <div className="section2">
         <Mission />
       </div>
     </div>
