@@ -5,6 +5,7 @@ import logo from "../Images/logo.png";
 import youth from "../Images/youth emp.jpg";
 import mom from "../Images/mother-child.jpg";
 import img5 from "../Images/mbati5.jpg";
+import Mission from "./Mission/Mission";
 
 function Home() {
   return (
@@ -15,7 +16,6 @@ function Home() {
             className="justify-content-end"
             variant="pills"
             defaultActiveKey="/"
-        
           >
             <home.Nav.Item className="link_items">
               <home.Nav.Link href="/">Who We Are</home.Nav.Link>
@@ -63,11 +63,7 @@ function Home() {
       </home.Container>
 
       <div className="mission">
-        <home.Container>
-          <home.Row>
-            <div>Our Mission</div>
-          </home.Row>
-        </home.Container>
+        <Mission />
       </div>
     </div>
   );
