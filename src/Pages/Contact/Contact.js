@@ -85,7 +85,7 @@ function Contact() {
       <div className="footer">
         <contact.Container>
           <div className="copy">
-            <a href="https://bahaticodes.web.app" className="link">
+            <a href="https://bahaticodes.web.app" className="link" target='_blank'>
               &copy; BahatiCodes
             </a>
           </div>

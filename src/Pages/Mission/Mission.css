@@ -31,17 +31,17 @@
     
 }
 
-.slide1image{
+/* .slide1image{
     background-image: url('../../Images/youth\ emp.jpg');
     height: 70vh;
     background-size: cover;
-}
+} */
 .youthhead{
     font-size: 24px;
     font-weight: 600;
 }
 
-.slide2image{
+/* .slide2image{
     background-image: url('../../Images/mother-child.jpg');
     height: 70vh;
     background-size: cover;
@@ -65,4 +65,4 @@
     background-image: url('../../Images/sports.jpg');
     height: 70vh;
     background-size: cover;
-}
+} */
