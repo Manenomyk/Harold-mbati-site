@@ -51,3 +51,18 @@
     height: 70vh;
     background-size: cover;
 }
+.slide4image{
+    background-image: url('../../Images/disability.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+.slide5image{
+    background-image: url('../../Images/school.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+.slide6image{
+    background-image: url('../../Images/sports.jpg');
+    height: 70vh;
+    background-size: cover;
+}

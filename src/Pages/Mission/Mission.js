@@ -82,12 +82,12 @@ function Mission() {
                   <div></div>
                   
                 </mission.Col>
-                <mission.Col lg={5} className="slide2image"></mission.Col>
+                <mission.Col lg={5} className="slide4image"></mission.Col>
               </mission.Row>
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-              <mission.Col lg={5} className="slide1image"></mission.Col>
+              <mission.Col lg={5} className="slide5image"></mission.Col>
 
                 <mission.Col lg={5} className="mx-auto slide1cont">
                   <div className="youth">
@@ -106,7 +106,7 @@ function Mission() {
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-              <mission.Col lg={5} className="slide3image"></mission.Col>
+              <mission.Col lg={5} className="slide6image"></mission.Col>
 
                 <mission.Col lg={5} className="mx-auto slide1cont">
                   <div className="youth">

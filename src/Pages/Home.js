@@ -25,6 +25,9 @@ function Home() {
             <home.Nav.Item className="link_items">
               <home.Nav.Link eventKey="link-2">Contact Us</home.Nav.Link>
             </home.Nav.Item>
+            <home.Nav.Item className="link_items">
+              <home.Nav.Link eventKey="link-3">Donate</home.Nav.Link>
+            </home.Nav.Item>
           </home.Nav>
         </home.Container>
       </div>
@@ -45,7 +48,9 @@ function Home() {
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
-                <div className="content"></div>
+                <div className="content">
+                  contentb
+                </div>
                 <button className="btn btn-success">LEARN MORE</button>
               </div>
             </home.Col>
