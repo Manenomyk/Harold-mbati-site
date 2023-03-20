@@ -16,6 +16,7 @@
 #nav_section{
     width: 100vw;
     position: fixed;
+    z-index: 2;
 }
 .link_items{
     text-decoration: none;
@@ -40,7 +41,7 @@
     border-radius: 2px;
     display: flex;
     justify-content: center;
-    z-index: 1;
+    z-index: 3;
     position: fixed;
     top: 0%;
     border: 1px solid rgb(245, 245, 245);

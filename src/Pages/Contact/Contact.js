@@ -3,6 +3,7 @@ import "./Contact.css";
 import * as contact from "react-bootstrap";
 import { IoCallSharp } from "react-icons/io5";
 import { IoMdChatboxes } from "react-icons/io";
+import { BsFacebook } from "react-icons/bs";
 
 function Contact() {
   return (
@@ -29,7 +30,27 @@ function Contact() {
       </div>
       <contact.Container>
         <contact.Row>
-          <contact.Col lg={4} className="mx-auto cont1">
+          <contact.Col lg={3} className="mx-auto cont1">
+            <div className="contents">
+              <div>
+                <div className="contaicon">
+                  <BsFacebook
+                    style={{ fontSize: "28px", marginBottom: "1rem" }}
+                  />
+                </div>
+                <div className="contahead">Follow us on Facebook</div>
+                <div className="number">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100090150282008&mibextid=ZbWKwL"
+                    target="_blank"
+                  >
+                    <button className="btn btn-primary">Facebook</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </contact.Col>
+          <contact.Col lg={3} className="mx-auto cont1">
             <div className="contents">
               <div>
                 <div className="contaicon">
@@ -42,7 +63,7 @@ function Contact() {
               </div>
             </div>
           </contact.Col>
-          <contact.Col lg={4} className="mx-auto cont1">
+          <contact.Col lg={3} className="mx-auto cont1">
             <div className="contents">
               <div>
                 <div className="contaicon">
@@ -51,18 +72,25 @@ function Contact() {
                   />
                 </div>
                 <div className="contahead">Reach us via Mail</div>
-                <div className="number">info@hmbatifoundation.org</div>
+                <div className="number">
+                  <a href="mailto: info@hmbatifoundation.org" target="_black">
+                    <button className="btn btn-success">Send Mail</button>
+                  </a>
+                </div>
               </div>
             </div>
           </contact.Col>
         </contact.Row>
-        
       </contact.Container>
       <div className="footer">
-        <contact.Row>
-          <contact.Col></contact.Col>
-        </contact.Row>
-        </div>
+        <contact.Container>
+          <div className="copy">
+            <a href="https://bahaticodes.web.app" className="link">
+              &copy; BahatiCodes
+            </a>
+          </div>
+        </contact.Container>
+      </div>
     </div>
   );
 }

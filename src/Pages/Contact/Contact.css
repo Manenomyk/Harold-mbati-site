@@ -68,6 +68,17 @@
     font-size: 18px;
 }
 .footer{
-    height: 15vh;
+    height: 8vh;
     background-color: #0a2049;
+
+}
+.copy{
+   padding-top: 1rem; 
+}
+
+.link{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
