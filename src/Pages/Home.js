@@ -5,6 +5,7 @@ import logo from "../Images/logo.png";
 import mom from "../Images/mother-child.jpg";
 import img5 from "../Images/mbati5.jpg";
 import Mission from "./Mission/Mission";
+import Contact from "./Contact/Contact";
 
 function Home() {
   return (
@@ -49,7 +50,7 @@ function Home() {
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
                 <div className="content">
-                  contentb
+                  content
                 </div>
                 <button className="btn btn-success">LEARN MORE</button>
               </div>
@@ -68,6 +69,10 @@ function Home() {
 
       <div className="section2">
         <Mission />
+      </div>
+
+      <div className="ContactSection">
+        <Contact/>
       </div>
     </div>
   );
