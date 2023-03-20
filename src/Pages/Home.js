@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import * as home from "react-bootstrap";
 import logo from "../Images/logo.png";
-import mom from "../Images/mother-child.jpg";
 import img5 from "../Images/mbati5.jpg";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
@@ -52,7 +51,7 @@ function Home() {
                 <div className="content">
                   content
                 </div>
-                <button className="btn btn-success">LEARN MORE</button>
+                <button className="btn btn-success">Learn More</button>
               </div>
             </home.Col>
           </home.Row>
