@@ -49,9 +49,16 @@ function Home() {
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
                 <div className="content">
-                  content
+                Harold Mbati Foundation is a private, not-for-profit organization 
+                established in 2023 by Mr. Harold Mbati. HMF is implementing 
+                development programs in Kenya bringing together human, financial
+                 and technical resources to address some of the challenges
+                  faced by the poorest and most marginalized communities.
+                   Our focus is on food, health, water, quality education, 
+                   equality and economic opportunities.
+                 We invest in human potential, expanding opportunities and improving quality of life.
                 </div>
-                <button className="btn btn-success">Learn More</button>
+                <button className="btn btn-success mt-4 mb-3">Learn More</button>
               </div>
             </home.Col>
           </home.Row>
