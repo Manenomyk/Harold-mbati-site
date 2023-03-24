@@ -1,6 +1,6 @@
 .missionsection{
     width: auto;
-    height: 85vh;
+    height: auto;
     
 }
 .headline{
@@ -31,38 +31,7 @@
     
 }
 
-/* .slide1image{
-    background-image: url('../../Images/youth\ emp.jpg');
-    height: 70vh;
-    background-size: cover;
-} */
 .youthhead{
     font-size: 24px;
     font-weight: 600;
 }
-
-/* .slide2image{
-    background-image: url('../../Images/mother-child.jpg');
-    height: 70vh;
-    background-size: cover;
-}
-.slide3image{
-    background-image: url('../../Images/gender.jpg');
-    height: 70vh;
-    background-size: cover;
-}
-.slide4image{
-    background-image: url('../../Images/disability.jpg');
-    height: 70vh;
-    background-size: cover;
-}
-.slide5image{
-    background-image: url('../../Images/school.jpg');
-    height: 70vh;
-    background-size: cover;
-}
-.slide6image{
-    background-image: url('../../Images/sports.jpg');
-    height: 70vh;
-    background-size: cover;
-} */
