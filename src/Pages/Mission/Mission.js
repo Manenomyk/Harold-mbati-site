@@ -33,7 +33,7 @@ function Mission() {
                   <div></div>
                   
                 </mission.Col>
-                <mission.Col lg={5} className="slide2image">
+                <mission.Col lg={5} xs={8} className="mx-auto slide2image">
                 <mission.Image 
                   className="d-block w-100"
                   src={moms}
@@ -45,7 +45,7 @@ function Mission() {
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-              <mission.Col lg={5} className="slide1imae">
+              <mission.Col lg={5} xs={8} className=" mx-auto slide1imae">
                 <mission.Image 
                   className="d-block w-100"
                   src={youth}
@@ -71,7 +71,7 @@ function Mission() {
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-              <mission.Col lg={5} className="slide3image">
+              <mission.Col lg={5} xs={6} className="mx-auto slide3image">
               <mission.Image 
                   className="d-block w-100"
                   src={gender}
@@ -107,7 +107,7 @@ function Mission() {
                   <div></div>
                   
                 </mission.Col>
-                <mission.Col lg={5} className="slide4image">
+                <mission.Col lg={5} xs={8} className="mx-auto slide4image">
                 <mission.Image 
                   className="d-block w-100"
                   src={disable}
@@ -119,7 +119,7 @@ function Mission() {
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-              <mission.Col lg={5} className="slide5image">
+              <mission.Col lg={5} xs={8} className="mx-auto slide5image">
               <mission.Image 
                   className="d-block w-100"
                   src={school}
@@ -145,7 +145,7 @@ function Mission() {
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-              <mission.Col lg={5} className="slide6image">
+              <mission.Col lg={5} xs={8} className=" mx-auto slide6image">
               <mission.Image 
                   className="d-block w-100"
                   src={games}
