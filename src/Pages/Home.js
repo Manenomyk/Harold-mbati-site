@@ -30,13 +30,13 @@ function Home() {
             defaultActiveKey="/"
           >
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="/">Who We Are</home.Nav.Link>
+              <home.Nav.Link href="#Home">Who We Are</home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link eventKey="link-1">How To Help</home.Nav.Link>
+              <home.Nav.Link href="#JoinUs" eventKey="link-1">How To Help</home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link eventKey="link-2">Contact Us</home.Nav.Link>
+              <home.Nav.Link href="#Contact" eventKey="link-2">Contact Us</home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
               <home.Nav.Link eventKey="link-3">Donate</home.Nav.Link>
@@ -44,8 +44,9 @@ function Home() {
           </home.Nav>
         </home.Container>
       </div>
-
+      <a name="Home"></a>
       <div className="carousel_section">
+       
         <home.Container>
           <home.Row>
             <home.Col lg={5} className="mx-auto mb-4">
@@ -94,6 +95,7 @@ function Home() {
       </div>
 
       <div className="help">
+        <a name="JoinUs"></a>
         <div className="headSection">
           <div>
             Be part of the great vision
@@ -177,6 +179,7 @@ function Home() {
       </div>
 
       <div className="ContactSection">
+        <a name="Contact"></a>
         <Contact />
       </div>
     </div>
