@@ -6,6 +6,9 @@ import img5 from "../Images/mbati5.jpg";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
 import { FcDonate } from "react-icons/fc";
+import { SiSololearn } from "react-icons/si";
+import { MdSettingsSuggest } from "react-icons/md";
+
 
 function Home() {
   return (
@@ -87,10 +90,13 @@ function Home() {
           <home.Row>
             <home.Col lg={4} className="mx-auto">
               <home.Card>
-                <home.Card.Header className="">
-                  <p className="advice">Learning and sharing</p>
-                </home.Card.Header>
+                
+                  <div className="icon">
+                    <SiSololearn />
+                  </div>
+
                 <home.Card.Body>
+                <p className="advice">Learning and sharing</p>
                   <div>
                     <p className="advice">
                       Learn more about the challanges faced by the community
@@ -107,12 +113,11 @@ function Home() {
             </home.Col>
             <home.Col lg={4} className="mx-auto">
               <home.Card>
-                <home.Card.Header className="">
+
                   <div className="icon">
                     <FcDonate />
                   </div>
                   <p className="advice">Donations</p>
-                </home.Card.Header>
                 <home.Card.Body>
                   <div>
                     <p className="advice">
@@ -128,9 +133,12 @@ function Home() {
             </home.Col>
             <home.Col lg={4} className="mx-auto">
               <home.Card>
-                <home.Card.Header className="">
+                
+                  <div className="icon">
+                    <MdSettingsSuggest />
+                  </div>
                   <p className="advice">Advisory and Suggestions</p>
-                </home.Card.Header>
+
                 <home.Card.Body>
                   <div className="advice">
                     <div>
