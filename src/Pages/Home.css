@@ -124,3 +124,11 @@ height: auto;
     color: #c32227;
     
 }
+
+.headSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-size: 28px;
+    color: white;
+}

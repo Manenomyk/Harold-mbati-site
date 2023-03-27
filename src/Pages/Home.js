@@ -85,10 +85,16 @@ function Home() {
       </div>
 
       <div className="help">
-        <div className="mx-auto ">Be part of the great vision</div>
+        <div className="headSection">
+          <div>
+          Be part of the great vision
+        <div className="underline mx-auto"></div>
+          </div>
+        </div>
+        
         <home.Container>
           <home.Row>
-            <home.Col lg={4} className="mx-auto">
+            <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
                 
                   <div className="icon1">
@@ -111,7 +117,7 @@ function Home() {
                 </home.Card.Body>
               </home.Card>
             </home.Col>
-            <home.Col lg={4} className="mx-auto">
+            <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
 
                   <div className="icon">
@@ -131,7 +137,7 @@ function Home() {
                 </home.Card.Body>
               </home.Card>
             </home.Col>
-            <home.Col lg={4} className="mx-auto">
+            <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
                 
                   <div className="icon2">
