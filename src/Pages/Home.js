@@ -91,12 +91,12 @@ function Home() {
             <home.Col lg={4} className="mx-auto">
               <home.Card>
                 
-                  <div className="icon">
+                  <div className="icon1">
                     <SiSololearn />
                   </div>
 
                 <home.Card.Body>
-                <p className="advice">Learning and sharing</p>
+                <p className="advice" id="header">Learning and sharing</p>
                   <div>
                     <p className="advice">
                       Learn more about the challanges faced by the community
@@ -117,7 +117,7 @@ function Home() {
                   <div className="icon">
                     <FcDonate />
                   </div>
-                  <p className="advice">Donations</p>
+                  <p className="advice" id="header">Donations</p>
                 <home.Card.Body>
                   <div>
                     <p className="advice">
@@ -134,10 +134,10 @@ function Home() {
             <home.Col lg={4} className="mx-auto">
               <home.Card>
                 
-                  <div className="icon">
+                  <div className="icon2">
                     <MdSettingsSuggest />
                   </div>
-                  <p className="advice">Advisory and Suggestions</p>
+                  <p className="advice" id="header">Advisory and Suggestions</p>
 
                 <home.Card.Body>
                   <div className="advice">
