@@ -26,10 +26,12 @@
 
 .carousel_section{
     width: auto;
-    height: 100vh;
+    height: auto;
     background-color: #fff7ec;
     display: flex;
     align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
     /* align-items: center;
     position: relative;
     justify-content: center; */

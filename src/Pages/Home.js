@@ -10,16 +10,18 @@ import { SiSololearn } from "react-icons/si";
 import { MdSettingsSuggest } from "react-icons/md";
 import { Helmet } from "react-helmet";
 
-
 function Home() {
   return (
     <div>
       <Helmet>
-                <meta charSet="utf-8" />
-                <title>Harold Mbati Foundation</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-                <meta name="description" content="Awesome resort you need to checkout" />
-            </Helmet>
+        <meta charSet="utf-8" />
+        <title>Harold Mbati Foundation</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Awesome resort you need to checkout"
+        />
+      </Helmet>
       <div className="nav_section" id="nav_section">
         <home.Container className="nav_container">
           <home.Nav
@@ -46,7 +48,7 @@ function Home() {
       <div className="carousel_section">
         <home.Container>
           <home.Row>
-            <home.Col lg={5} className="mx-auto">
+            <home.Col lg={5} className="mx-auto mb-4">
               <home.Image
                 src={img5}
                 className="d-block w-100"
@@ -55,7 +57,7 @@ function Home() {
               />
             </home.Col>
 
-            <home.Col lg={6} className="mx-auto sect1-image ">
+            <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
@@ -94,29 +96,28 @@ function Home() {
       <div className="help">
         <div className="headSection">
           <div>
-          Be part of the great vision
-        <div className="underline mx-auto"></div>
+            Be part of the great vision
+            <div className="underline mx-auto"></div>
           </div>
         </div>
-        
+
         <home.Container>
           <home.Row>
             <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
-                
-                  <div className="icon1">
-                    <SiSololearn />
-                  </div>
+                <div className="icon1">
+                  <SiSololearn />
+                </div>
 
                 <home.Card.Body>
-                <p className="advice" id="header">Learning and sharing</p>
+                  <p className="advice" id="header">
+                    Learning and sharing
+                  </p>
                   <div>
                     <p className="advice">
                       Learn more about the challanges faced by the community
                     </p>
-                    <p className="advice">
-                      #LearnAndShare
-                    </p>
+                    <p className="advice">#LearnAndShare</p>
                   </div>
                   <div className="advice">
                     <button className="btn btn-primary">Learn more</button>
@@ -126,15 +127,17 @@ function Home() {
             </home.Col>
             <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
-
-                  <div className="icon">
-                    <FcDonate />
-                  </div>
-                  <p className="advice" id="header">Donations</p>
+                <div className="icon">
+                  <FcDonate />
+                </div>
+                <p className="advice" id="header">
+                  Donations
+                </p>
                 <home.Card.Body>
                   <div>
                     <p className="advice">
-                      Through your contributions, you make the programs run swiftly
+                      Through your contributions, you make the programs run
+                      swiftly
                     </p>
                     <p className="advice">#FeelGreatlyAppreciated</p>
                   </div>
@@ -146,18 +149,19 @@ function Home() {
             </home.Col>
             <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
-                
-                  <div className="icon2">
-                    <MdSettingsSuggest />
-                  </div>
-                  <p className="advice" id="header">Advisory and Suggestions</p>
+                <div className="icon2">
+                  <MdSettingsSuggest />
+                </div>
+                <p className="advice" id="header">
+                  Advisory and Suggestions
+                </p>
 
                 <home.Card.Body>
                   <div className="advice">
                     <div>
                       <p className="advice">
-                       Are glad and willing to hear from you
-                      Share your insights on how we can improve our reach
+                        Are glad and willing to hear from you Share your
+                        insights on how we can improve our reach
                       </p>
                       <p className="advice">#YourOpinionIsValued</p>
                     </div>
