@@ -5,6 +5,7 @@ import logo from "../Images/logo.png";
 import img5 from "../Images/mbati5.jpg";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
+import { FcDonate } from "react-icons/fc";
 
 function Home() {
   return (
@@ -49,16 +50,19 @@ function Home() {
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
                 <div className="content">
-                Harold Mbati Foundation is a private, not-for-profit organization 
-                established in 2023 by Mr. Harold Mbati. HMF is implementing 
-                development programs in Kenya bringing together human, financial
-                 and technical resources to address some of the challenges
-                  faced by the poorest and most marginalized communities.
-                   Our focus is on food, health, water, quality education, 
-                   equality and economic opportunities.
-                 We invest in human potential, expanding opportunities and improving quality of life.
+                  Harold Mbati Foundation is a private, not-for-profit
+                  organization established in 2023 by Mr. Harold Mbati. HMF is
+                  implementing development programs in Kenya bringing together
+                  human, financial and technical resources to address some of
+                  the challenges faced by the poorest and most marginalized
+                  communities. Our focus is on food, health, water, quality
+                  education, equality and economic opportunities. We invest in
+                  human potential, expanding opportunities and improving quality
+                  of life.
                 </div>
-                <button className="btn btn-success mt-4 mb-3">Learn More</button>
+                <button className="btn btn-success mt-4 mb-3">
+                  Learn More
+                </button>
               </div>
             </home.Col>
           </home.Row>
@@ -77,8 +81,78 @@ function Home() {
         <Mission />
       </div>
 
+      <div className="help">
+        <div className="mx-auto ">Be part of the great vision</div>
+        <home.Container>
+          <home.Row>
+            <home.Col lg={4} className="mx-auto">
+              <home.Card>
+                <home.Card.Header className="">
+                  <p className="advice">Learning and sharing</p>
+                </home.Card.Header>
+                <home.Card.Body>
+                  <div>
+                    <p className="advice">
+                      Learn more about the challanges faced by the community
+                    </p>
+                    <p className="advice">
+                      #LearnAndShare
+                    </p>
+                  </div>
+                  <div className="advice">
+                    <button className="btn btn-primary">Learn more</button>
+                  </div>
+                </home.Card.Body>
+              </home.Card>
+            </home.Col>
+            <home.Col lg={4} className="mx-auto">
+              <home.Card>
+                <home.Card.Header className="">
+                  <div className="icon">
+                    <FcDonate />
+                  </div>
+                  <p className="advice">Donations</p>
+                </home.Card.Header>
+                <home.Card.Body>
+                  <div>
+                    <p className="advice">
+                      Through your contributions, you make the programs run swiftly
+                    </p>
+                    <p className="advice">#FeelGreatlyAppreciated</p>
+                  </div>
+                  <div className="advice">
+                    <button className="btn btn-success">Make Donation</button>
+                  </div>
+                </home.Card.Body>
+              </home.Card>
+            </home.Col>
+            <home.Col lg={4} className="mx-auto">
+              <home.Card>
+                <home.Card.Header className="">
+                  <p className="advice">Advisory and Suggestions</p>
+                </home.Card.Header>
+                <home.Card.Body>
+                  <div className="advice">
+                    <div>
+                      <p className="advice">
+                       Are glad and willing to hear from you
+                      Share your insights on how we can improve our reach
+                      </p>
+                      <p className="advice">#YourOpinionIsValued</p>
+                    </div>
+                  </div>
+                  <div className="advice">
+                    <button className="btn btn-primary">Share your idea</button>
+                  </div>
+                </home.Card.Body>
+              </home.Card>
+            </home.Col>
+          </home.Row>
+        </home.Container>
+      </div>
+
       <div className="ContactSection">
-        <Contact/>
+        <Contact />
       </div>
     </div>
   );
