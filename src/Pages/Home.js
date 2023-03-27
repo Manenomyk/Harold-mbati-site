@@ -8,11 +8,18 @@ import Contact from "./Contact/Contact";
 import { FcDonate } from "react-icons/fc";
 import { SiSololearn } from "react-icons/si";
 import { MdSettingsSuggest } from "react-icons/md";
+import { Helmet } from "react-helmet";
 
 
 function Home() {
   return (
     <div>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Harold Mbati Foundation</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Awesome resort you need to checkout" />
+            </Helmet>
       <div className="nav_section" id="nav_section">
         <home.Container className="nav_container">
           <home.Nav
