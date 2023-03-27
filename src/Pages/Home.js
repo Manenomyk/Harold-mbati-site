@@ -160,8 +160,8 @@ function Home() {
                   <div className="advice">
                     <div>
                       <p className="advice">
-                        Are glad and willing to hear from you Share your
-                        insights on how we can improve our reach
+                        HMF is glad and willing to hear from you Share your
+                        insights on how to improve our reach
                       </p>
                       <p className="advice">#YourOpinionIsValued</p>
                     </div>
