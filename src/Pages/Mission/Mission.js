@@ -172,11 +172,21 @@ function Mission() {
                   />
                 </mission.Col>
 
-                <mission.Col lg={5} className="mx-auto slide1cont">
+                <mission.Col lg={6} className="mx-auto slide1cont">
                   <div className="youth">
                     <div>
                       <div className="youthhead">Sports</div>
-                      <div>content</div>
+                      <div className="tag ">
+                        "Persistence can change failure into extraordinary
+                        achievement"
+                      </div>
+                      <div className="info">
+                        HMF, through Harold Mbati Champions Cup, promotes the
+                        role sport can play in creating sustainable social
+                        change. We use the power of sports to unite and
+                        transform lives by turning athletic ability into life
+                        opportunities.
+                      </div>
                       <button className="btn btn-success">Learn More</button>
                     </div>
                   </div>
