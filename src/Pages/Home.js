@@ -108,7 +108,7 @@ function Home() {
         </div>
 
         <home.Container className="mb-4">
-          <home.Row >
+          <home.Row>
             <home.Col lg={5} className="mx-auto share">
               <div className="topinfo">
                 There are numerous ways you can help HMF bring change in the
@@ -116,8 +116,8 @@ function Home() {
                 volunteering your time and donations are all welcomed.
               </div>
             </home.Col>
-            <home.Col lg={4} className='mx-auto imgcol'>
-            <home.Image
+            <home.Col lg={4} className="mx-auto imgcol">
+              <home.Image
                 src={share}
                 className="d-block share_img"
                 alt="Slide one"
@@ -139,10 +139,11 @@ function Home() {
                     Volunteering
                   </p>
                   <div>
-                    <p className="advice">
-                      Learn more about the challanges faced by the community
+                    <p className="advice text-center">
+                      We are be glad to invite you to partner with us through
+                      your time and service
                     </p>
-                    <p className="advice">#LearnAndShare</p>
+                    <p className="advice">#WeValueYourSacrifice</p>
                   </div>
                   <div className="advice">
                     <button className="btn btn-primary">Learn more</button>
@@ -160,7 +161,7 @@ function Home() {
                 </p>
                 <home.Card.Body>
                   <div>
-                    <p className="advice">
+                    <p className="advice text-center">
                       Through your contributions, you make the programs run
                       swiftly
                     </p>
@@ -184,8 +185,8 @@ function Home() {
                 <home.Card.Body>
                   <div className="advice">
                     <div>
-                      <p className="advice">
-                        HMF is glad and willing to hear from you Share your
+                      <p className="advice text-center">
+                        HMF is glad and willing to hear from you. Share your
                         insights on how to improve our reach
                       </p>
                       <p className="advice">#YourOpinionIsValued</p>
