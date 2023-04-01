@@ -78,7 +78,7 @@ function Mission() {
                 </mission.Col>
               </mission.Row>
             </mission.Carousel.Item>
-            <mission.Carousel.Item>
+            {/* <mission.Carousel.Item>
               <mission.Row>
                 <mission.Col lg={5} xs={6} className="mx-auto slide3image">
                   <mission.Image
@@ -102,10 +102,10 @@ function Mission() {
                   <div></div>
                 </mission.Col>
               </mission.Row>
-            </mission.Carousel.Item>
+            </mission.Carousel.Item> */}
             <mission.Carousel.Item>
               <mission.Row>
-                <mission.Col lg={5} className="mx-auto slide1cont">
+                <mission.Col lg={6} className="mx-auto slide1cont">
                   <div className="youth">
                     <div>
                       <div className="youthhead">
