@@ -134,3 +134,18 @@ height: auto;
     font-size: 28px;
     color: white;
 }
+.topinfo{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}

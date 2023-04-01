@@ -33,10 +33,14 @@ function Home() {
               <home.Nav.Link href="#Home">Who We Are</home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="#JoinUs" eventKey="link-1">How To Help</home.Nav.Link>
+              <home.Nav.Link href="#JoinUs" eventKey="link-1">
+                How To Help
+              </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="#Contact" eventKey="link-2">Contact Us</home.Nav.Link>
+              <home.Nav.Link href="#Contact" eventKey="link-2">
+                Contact Us
+              </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
               <home.Nav.Link eventKey="link-3">Donate</home.Nav.Link>
@@ -46,7 +50,6 @@ function Home() {
       </div>
       <a name="Home"></a>
       <div className="carousel_section">
-       
         <home.Container>
           <home.Row>
             <home.Col lg={5} className="mx-auto mb-4">
@@ -105,6 +108,17 @@ function Home() {
 
         <home.Container>
           <home.Row>
+            <home.Col lg={6} className="mx-auto text-center share">
+              <div className="topinfo">
+                There are numerous ways you can help HMF bring change in the
+                society in a meaningful way. Financial contribution,
+                volunteering your time and donations are all welcomed.
+              </div>
+            </home.Col>
+          </home.Row>
+        </home.Container>
+        <home.Container>
+          <home.Row>
             <home.Col lg={4} className="mx-auto mb-2">
               <home.Card>
                 <div className="icon1">
@@ -113,7 +127,7 @@ function Home() {
 
                 <home.Card.Body>
                   <p className="advice" id="header">
-                    Learning and sharing
+                    Volunteering
                   </p>
                   <div>
                     <p className="advice">
