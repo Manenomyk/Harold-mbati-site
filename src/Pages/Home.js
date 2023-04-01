@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import * as home from "react-bootstrap";
 import logo from "../Images/logo.png";
+import share from "../Images/share.svg";
 import img5 from "../Images/mbati5.jpg";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
@@ -108,12 +109,15 @@ function Home() {
 
         <home.Container>
           <home.Row>
-            <home.Col lg={6} className="mx-auto text-center share">
+            <home.Col lg={5} className="mx-auto share">
               <div className="topinfo">
                 There are numerous ways you can help HMF bring change in the
                 society in a meaningful way. Financial contribution,
                 volunteering your time and donations are all welcomed.
               </div>
+            </home.Col>
+            <home.Col lg={5} className='mx-auto'>
+              
             </home.Col>
           </home.Row>
         </home.Container>
