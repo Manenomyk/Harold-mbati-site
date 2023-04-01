@@ -144,7 +144,16 @@ function Mission() {
                       <div className="youthhead">
                         <h2>Schools Development</h2>
                       </div>
-                      <div>content</div>
+                      <div className="tag">
+                        “Education is the movement from darkness to light.”
+                      </div>
+                      <div className="info">
+                        Everyone has a right to education irrespective of their
+                        status. Education is a key to a positive society. We
+                        believe in not only just education but quality
+                        education. Harold Mbati Foundation is aimed at ensuring
+                        children get quality education in the society.
+                      </div>
                       <button className="btn btn-primary">Learn More</button>
                     </div>
                   </div>
