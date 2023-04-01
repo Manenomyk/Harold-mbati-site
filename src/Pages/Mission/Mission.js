@@ -78,7 +78,7 @@ function Mission() {
                 </mission.Col>
               </mission.Row>
             </mission.Carousel.Item>
-            
+
             <mission.Carousel.Item>
               <mission.Row>
                 <mission.Col lg={6} className="mx-auto slide1cont">
@@ -179,19 +179,21 @@ function Mission() {
         <div>
           <hr />
           <mission.Row>
-            <mission.Col lg={4} className="mx-auto colmiss1">
+            <mission.Col lg={3} className="mx-auto text-center  colmiss1">
               <div>
                 <div>Vission</div>
                 <div>
-                  content
+                  Promoting an enhanced socio-economic environment where
+                  everyone can thrive
                 </div>
               </div>
             </mission.Col>
-            <mission.Col lg={4} className="mx-auto colmiss1">
+            <mission.Col lg={3} className="mx-auto text-center colmiss1">
               <div>
                 <div>Mission</div>
                 <div>
-                  content
+                  To impact the livelihoods of the people of Luanda Constituency
+                  towards self-reliance
                 </div>
               </div>
             </mission.Col>
