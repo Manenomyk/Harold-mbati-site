@@ -2,7 +2,7 @@ import React from "react";
 import "./Mission.css";
 import * as mission from "react-bootstrap";
 import disable from "../../Images/disable.jpg";
-import games from "../../Images/sport.jpg";
+import ball from "../../Images/ball.svg";
 import gender from "../../Images/genders.jpg";
 import school from "../../Images/school2.jpg";
 import moms from "../../Images/momy.jpg";
@@ -19,7 +19,7 @@ function Mission() {
               <div className="underline mx-auto"></div>
             </div>
           </div>
-          <mission.Carousel>
+          <mission.Carousel className="corousel">
             <mission.Carousel.Item>
               <mission.Row>
                 <mission.Col lg={5} className="mx-auto slide1cont">
@@ -166,13 +166,13 @@ function Mission() {
                 <mission.Col lg={5} xs={8} className=" mx-auto slide6image">
                   <mission.Image
                     className="d-block w-100"
-                    src={games}
+                    src={ball}
                     alt="games SLIDE"
                     fluid
                   />
                 </mission.Col>
 
-                <mission.Col lg={6} className="mx-auto slide1cont">
+                <mission.Col lg={5} className="mx-auto slide1cont">
                   <div className="youth">
                     <div>
                       <div className="youthhead">Sports</div>
@@ -187,7 +187,7 @@ function Mission() {
                         transform lives by turning athletic ability into life
                         opportunities.
                       </div>
-                      <button className="btn btn-success">Learn More</button>
+                      <button className="btn btn-primary">Learn More</button>
                     </div>
                   </div>
                   <div></div>
