@@ -136,10 +136,9 @@ height: auto;
 }
 .topinfo{
     color: white;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 16px;
+    /* display: flex;
+    justify-content: center; */
 }
 .share{
     width: 100%;
@@ -148,4 +147,7 @@ height: auto;
     align-items: center;
     margin-bottom: 3rem;
 
+}
+.share_img{
+    width: 250px;
 }

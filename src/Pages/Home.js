@@ -107,8 +107,8 @@ function Home() {
           </div>
         </div>
 
-        <home.Container>
-          <home.Row>
+        <home.Container className="mb-4">
+          <home.Row >
             <home.Col lg={5} className="mx-auto share">
               <div className="topinfo">
                 There are numerous ways you can help HMF bring change in the
@@ -116,8 +116,13 @@ function Home() {
                 volunteering your time and donations are all welcomed.
               </div>
             </home.Col>
-            <home.Col lg={5} className='mx-auto'>
-              
+            <home.Col lg={4} className='mx-auto'>
+            <home.Image
+                src={share}
+                className="d-block share_img"
+                alt="Slide one"
+                fluid
+              />
             </home.Col>
           </home.Row>
         </home.Container>
