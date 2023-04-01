@@ -54,3 +54,20 @@
     display: flex;
     justify-content: center;
 }
+.mish{
+    margin-top: 1.5rem;
+    font-size: 19px;
+}
+
+.vish{
+    margin-top: 1.5rem;
+    font-size: 19px;
+}
+.vishhead{
+    margin-top: 1.5rem;
+    font-size: 28px;
+}
+.mishhead{
+    margin-top: 1.5rem;
+    font-size: 28px;
+}

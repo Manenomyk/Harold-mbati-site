@@ -181,8 +181,9 @@ function Mission() {
           <mission.Row>
             <mission.Col lg={3} className="mx-auto text-center  colmiss1">
               <div>
-                <div>Vission</div>
-                <div>
+                <div className="vishhead">Vission</div>
+                <div className="underline mx-auto"></div>
+                <div className="vish">
                   Promoting an enhanced socio-economic environment where
                   everyone can thrive
                 </div>
@@ -190,8 +191,9 @@ function Mission() {
             </mission.Col>
             <mission.Col lg={3} className="mx-auto text-center colmiss1">
               <div>
-                <div>Mission</div>
-                <div>
+                <div className="mishhead">Mission</div>
+                <div className="underline mx-auto"></div>
+                <div className="mish">
                   To impact the livelihoods of the people of Luanda Constituency
                   towards self-reliance
                 </div>
