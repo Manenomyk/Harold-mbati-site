@@ -72,12 +72,9 @@ function Home() {
                   implementing development programs in Kenya bringing together
                   human, financial and technical resources to address some of
                   the challenges faced by the poorest and most marginalized
-                  communities. Our focus is on food, health, water, quality
-                  education, equality and economic opportunities. We invest in
-                  human potential, expanding opportunities and improving quality
-                  of life.
+                  communities.
                 </div>
-                <button className="btn btn-success mt-4 mb-3">
+                <button className="btn btn-success mt-4 mb-3 homebtn">
                   Learn More
                 </button>
               </div>

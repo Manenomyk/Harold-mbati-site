@@ -28,6 +28,9 @@
     width: auto;
     height: auto;
     background-color: #fff7ec;
+    /* background-image: url('../Images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
     display: flex;
     align-items: center;
     padding-top: 10rem;
@@ -58,9 +61,18 @@
 }
 
 .sect1-image{
-border: 1px solid grey;
-border-radius: 10px;
+border: 1px solid #fcf5ec;
+border-top-right-radius: 220px;
+border-top-left-radius: 220px;
+border-bottom-right-radius: 220px;
 height: auto;
+background-color: #fffbf7;
+box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.homebtn{
+    margin-left: 3rem;
 }
 .welcome{
     display: flex;
@@ -80,6 +92,7 @@ height: auto;
 }
 .content{
     font-size: 17px;
+    padding: 0 3rem;
 }
 
 .advice{
