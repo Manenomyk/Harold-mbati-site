@@ -176,6 +176,27 @@ function Mission() {
             </mission.Carousel.Item>
           </mission.Carousel>
         </mission.Row>
+        <div>
+          <hr />
+          <mission.Row>
+            <mission.Col lg={4} className="mx-auto colmiss1">
+              <div>
+                <div>Vission</div>
+                <div>
+                  content
+                </div>
+              </div>
+            </mission.Col>
+            <mission.Col lg={4} className="mx-auto colmiss1">
+              <div>
+                <div>Mission</div>
+                <div>
+                  content
+                </div>
+              </div>
+            </mission.Col>
+          </mission.Row>
+        </div>
       </mission.Container>
     </div>
   );
