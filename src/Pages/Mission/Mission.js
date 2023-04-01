@@ -62,7 +62,7 @@ function Mission() {
                         <h2>Youth Empowerment</h2>
                       </div>
                       <div className="tag">
-                        “The world's biggest strength lies in the youth."
+                        <b>“The world's biggest strength lies in the youth."</b>
                       </div>
                       <div className="info">
                         From education to entrepreneurship, young people are
@@ -78,38 +78,14 @@ function Mission() {
                 </mission.Col>
               </mission.Row>
             </mission.Carousel.Item>
-            {/* <mission.Carousel.Item>
-              <mission.Row>
-                <mission.Col lg={5} xs={6} className="mx-auto slide3image">
-                  <mission.Image
-                    className="d-block w-100"
-                    src={gender}
-                    alt="gender SLIDE"
-                    fluid
-                  />
-                </mission.Col>
-
-                <mission.Col lg={5} className="mx-auto slide1cont">
-                  <div className="youth">
-                    <div>
-                      <div className="youthhead">
-                        <h2>Gender Equality</h2>
-                      </div>
-                      <div>content</div>
-                      <button className="btn btn-success">Learn More</button>
-                    </div>
-                  </div>
-                  <div></div>
-                </mission.Col>
-              </mission.Row>
-            </mission.Carousel.Item> */}
+            
             <mission.Carousel.Item>
               <mission.Row>
                 <mission.Col lg={6} className="mx-auto slide1cont">
                   <div className="youth">
                     <div>
                       <div className="youthhead">
-                        <h2>Empowerment of People Living with Disability</h2>
+                        <h2>People Living with Disability</h2>
                       </div>
                       <div>content</div>
                       <button className="btn btn-success">Learn More</button>
@@ -145,7 +121,9 @@ function Mission() {
                         <h2>Schools Development</h2>
                       </div>
                       <div className="tag">
-                        “Education is the movement from darkness to light.”
+                        <b>
+                          “Education is the movement from darkness to light.”
+                        </b>
                       </div>
                       <div className="info">
                         Everyone has a right to education irrespective of their
@@ -177,8 +155,10 @@ function Mission() {
                     <div>
                       <div className="youthhead">Sports</div>
                       <div className="tag ">
-                        "Persistence can change failure into extraordinary
-                        achievement"
+                        <b>
+                          "Persistence can change failure into extraordinary
+                          achievement"
+                        </b>
                       </div>
                       <div className="info">
                         HMF, through Harold Mbati Champions Cup, promotes the
