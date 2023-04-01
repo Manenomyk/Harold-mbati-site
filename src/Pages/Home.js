@@ -116,7 +116,7 @@ function Home() {
                 volunteering your time and donations are all welcomed.
               </div>
             </home.Col>
-            <home.Col lg={4} className='mx-auto'>
+            <home.Col lg={4} className='mx-auto imgcol'>
             <home.Image
                 src={share}
                 className="d-block share_img"
