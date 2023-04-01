@@ -35,3 +35,16 @@
     font-size: 24px;
     font-weight: 600;
 }
+.tag{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    align-items: center;
+}

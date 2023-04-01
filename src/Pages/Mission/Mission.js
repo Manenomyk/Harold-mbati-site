@@ -58,7 +58,13 @@ function Mission() {
                   <div className="youth">
                     <div>
                     <div className="youthhead"><h2>Youth Empowerment</h2></div>
-                    <div>content</div>
+                    <div className="tag">“The world's biggest strength lies in the youth."</div>
+                    <div className="info">
+                    We support initiatives that effectively include young 
+                    people from all over the world in tasks that require
+                     them to hone skills, develop critical thinking, 
+                     and take part in opportunities to improve the future.
+                    </div>
                     <button className="btn btn-primary">Learn More</button>
                     </div>
                     </div>
