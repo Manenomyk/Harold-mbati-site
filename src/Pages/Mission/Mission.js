@@ -2,9 +2,9 @@ import React from "react";
 import "./Mission.css";
 import * as mission from "react-bootstrap";
 import disable from "../../Images/disable.jpg";
-import ball from "../../Images/ball.svg";
+import ball from "../../Images/i13.JPG";
 import gender from "../../Images/genders.jpg";
-import school from "../../Images/school2.jpg";
+import school from "../../Images/i4.jpg";
 import moms from "../../Images/momy.jpg";
 import youth from "../../Images/youth.jpg";
 
@@ -107,7 +107,7 @@ function Mission() {
               <mission.Row>
                 <mission.Col lg={5} xs={8} className="mx-auto slide5image">
                   <mission.Image
-                    className="d-block w-100"
+                    className="d-block w-100 ima"
                     src={school}
                     alt="school SLIDE"
                     fluid
@@ -141,9 +141,9 @@ function Mission() {
             </mission.Carousel.Item>
             <mission.Carousel.Item>
               <mission.Row>
-                <mission.Col lg={5} xs={8} className=" mx-auto slide6image">
+                <mission.Col lg={5} xs={8} className=" mx-auto slide5image">
                   <mission.Image
-                    className="d-block w-100"
+                    className="d-block w-100 ima"
                     src={ball}
                     alt="games SLIDE"
                     fluid

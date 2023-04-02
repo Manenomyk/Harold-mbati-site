@@ -59,14 +59,6 @@ function Home() {
         </home.Carousel>
         <home.Container>
           <home.Row>
-            {/* <home.Col lg={5} className="mx-auto mb-4">
-              <home.Image
-                src={img5}
-                className="d-block w-100"
-                alt="Slide one"
-                fluid
-              />
-            </home.Col> */}
 
             <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
               <div>
@@ -79,7 +71,7 @@ function Home() {
                   the poorest and most marginalized communities.
                 </div> */}
                 <div className="homebtn">
-                <button className="btn btn-success mt-4 mb-3 ">
+                <button className="btn btn-danger mt-4 mb-3 ">
                   Learn More
                 </button>
                 </div>
@@ -182,7 +174,7 @@ function Home() {
                   <MdSettingsSuggest />
                 </div>
                 <p className="advice" id="header">
-                  Advisory and Suggestions
+                  Your Contributions
                 </p>
 
                 <home.Card.Body>
