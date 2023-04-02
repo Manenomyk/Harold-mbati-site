@@ -53,8 +53,8 @@ function Gallery() {
         </gala.Row>
       </gala.Container>
     <gala.Container className="galacont">
-        <gala.Row className="mb-4">
-            <gala.Col lg={3} className="mx-aoto ">
+        <gala.Row className="mb-2">
+            <gala.Col lg={3} className="mx-auto mb-3 ">
                 <gala.Image
                 src={i2}
                 className="d-block w-100"
@@ -62,7 +62,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i3}
                 className="d-block w-100"
@@ -70,7 +70,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i4}
                 className="d-block w-100"
@@ -78,7 +78,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i5}
                 className="d-block w-100"
@@ -87,8 +87,8 @@ function Gallery() {
                 />
             </gala.Col>
         </gala.Row>
-        <gala.Row className="mb-4">
-            <gala.Col lg={3} className="mx-aoto">
+        <gala.Row className="mb-2">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i7}
                 className="d-block w-100"
@@ -96,7 +96,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i8}
                 className="d-block w-100"
@@ -104,7 +104,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i9}
                 className="d-block w-100"
@@ -112,7 +112,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i10}
                 className="d-block w-100"
@@ -121,8 +121,8 @@ function Gallery() {
                 />
             </gala.Col>
         </gala.Row>
-        <gala.Row className="mb-4">
-            <gala.Col lg={3} className="mx-aoto">
+        <gala.Row className="mb-2">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i11}
                 className="d-block w-100"
@@ -130,7 +130,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i12}
                 className="d-block w-100"
@@ -138,7 +138,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i13}
                 className="d-block w-100"
@@ -146,7 +146,7 @@ function Gallery() {
                 fluid
                 />
             </gala.Col>
-            <gala.Col lg={3} className="mx-aoto">
+            <gala.Col lg={3} className="mx-auto mb-3">
                 <gala.Image
                 src={i6}
                 className="d-block w-100"
