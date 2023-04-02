@@ -71,7 +71,7 @@ function Home() {
                   the poorest and most marginalized communities.
                 </div> */}
                 <div className="homebtn">
-                <button className="btn btn-danger mt-4 mb-3 ">
+                <button className="btn btn-primary mt-4 mb-3 ">
                   Learn More
                 </button>
                 </div>
