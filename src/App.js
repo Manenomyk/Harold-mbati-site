@@ -5,7 +5,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Mission from'./Pages/Mission/Mission';
-import Help from './Pages/Help/Help';
+import About from './Pages/About/About';
 function App() {
   return (
 
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route path='/mission' element={<Mission/>} />
-        <Route path='/help' element={<Help/>} />
+        <Route path='/about' element={<About/>} />
       </Routes>
     </Router>
   );

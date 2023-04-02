@@ -2,10 +2,10 @@ import React from 'react';
 import './Help.css';
 
 
-function Help() {
+function About() {
   return (
-    <div>Help</div>
+    <div>About</div>
   )
 }
 
-export default Help
+export default About
