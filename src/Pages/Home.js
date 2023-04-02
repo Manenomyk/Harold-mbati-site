@@ -60,21 +60,19 @@ function Home() {
         </home.Carousel>
         <home.Container>
           <home.Row>
-
             <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
-                {/* <div className="content text-center">
-                  We are a not-for-profit organization implementing development
-                  programs in Kenya bringing together human, financial and
-                  technical resources to address some of the challenges faced by
-                  the poorest and most marginalized communities.
-                </div> */}
                 <div className="homebtn">
-                <button className="btn btn-primary mt-4 mb-3 ">
-                  <a href="/about" style={{textDecoration:'none', color:"white"}}>Know Us More</a>
-                </button>
+                  <button className="btn btn-primary mt-4 mb-3 ">
+                    <a
+                      href="/about"
+                      style={{ textDecoration: "none", color: "white" }}
+                    >
+                      Know Us More
+                    </a>
+                  </button>
                 </div>
               </div>
             </home.Col>

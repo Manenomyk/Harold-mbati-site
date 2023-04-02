@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Mission from'./Pages/Mission/Mission';
 import About from './Pages/About/About';
+import Gallery from './Pages/Gallery/Gallery';
 function App() {
   return (
 
@@ -14,6 +15,7 @@ function App() {
         <Route exact path='/' element={<Home/>} />
         <Route path='/mission' element={<Mission/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/gallery' element={<Gallery/>} />
       </Routes>
     </Router>
   );
