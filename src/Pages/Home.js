@@ -56,6 +56,7 @@ function Home() {
           <home.CarouselItem className="carousel_section bg-img1"></home.CarouselItem>
           <home.CarouselItem className="carousel_section bg-img2"></home.CarouselItem>
           <home.CarouselItem className="carousel_section bg-img3"></home.CarouselItem>
+          <home.CarouselItem className="carousel_section bg-img4"></home.CarouselItem>
         </home.Carousel>
         <home.Container>
           <home.Row>
