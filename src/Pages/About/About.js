@@ -40,7 +40,7 @@ function About() {
         </about.Row>
       </about.Container>
 
-      <about.Container>
+      <about.Container className='aboutcontain'>
         <about.Row>
           <about.Col lg={5} className='mx-auto'>
             <about.Image 
@@ -51,7 +51,17 @@ function About() {
             />
           </about.Col>
           <about.Col lg={5} className='mx-auto'>
-
+          <div>
+                <div className="about">About Us</div>
+                <div className="underline1"></div>
+                
+                <div className="conten">
+                  We are a not-for-profit organization implementing development
+                  programs in Kenya bringing together human, financial and
+                  technical resources to address some of the challenges faced by
+                  the poorest and most marginalized communities.
+                </div>
+              </div>
           </about.Col>
         </about.Row>
       </about.Container>
