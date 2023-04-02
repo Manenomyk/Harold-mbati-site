@@ -51,7 +51,9 @@ function Home() {
       </div>
       <a name="Home"></a>
       <div className="firstsection">
+        
         <home.Carousel>
+          
           <home.CarouselItem className="carousel_section bg-img">
 
           </home.CarouselItem>
@@ -76,7 +78,7 @@ function Home() {
               />
             </home.Col> */}
 
-            {/* <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
+            <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
@@ -92,7 +94,7 @@ function Home() {
                   Learn More
                 </button>
               </div>
-            </home.Col> */}
+            </home.Col>
           </home.Row>
         </home.Container>
       </div>

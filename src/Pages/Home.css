@@ -47,11 +47,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   /*  display: flex;
-    align-items: center;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-    width: auto; */
  
 }
 
@@ -77,12 +72,15 @@
 
 .sect1-image{
 border: 1px solid #fcf5ec;
-border-top-right-radius: 220px;
+/* border-top-right-radius: 220px; */
 border-top-left-radius: 220px;
 border-bottom-right-radius: 220px;
 height: auto;
-background-color: #fffbf7;
+background-color: rgba(255, 255, 255, 0.8);
 box-Shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+position: absolute;
+z-index: 2;
+top: 30%;
 
 }
 
