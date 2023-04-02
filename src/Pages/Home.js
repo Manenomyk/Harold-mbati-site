@@ -50,19 +50,33 @@ function Home() {
         </home.Container>
       </div>
       <a name="Home"></a>
-      <div className="carousel_section">
+      <div >
+        <home.Carousel>
+          <home.CarouselItem className="carousel_section">
+
+          </home.CarouselItem>
+          <home.CarouselItem className="carousel_section1">
+
+          </home.CarouselItem>
+          <home.CarouselItem className="carousel_section2">
+
+          </home.CarouselItem>
+          <home.CarouselItem className="carousel_section3">
+
+          </home.CarouselItem>
+        </home.Carousel>
         <home.Container>
           <home.Row>
-            <home.Col lg={5} className="mx-auto mb-4">
+            {/* <home.Col lg={5} className="mx-auto mb-4">
               <home.Image
                 src={img5}
                 className="d-block w-100"
                 alt="Slide one"
                 fluid
               />
-            </home.Col>
+            </home.Col> */}
 
-            <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
+            {/* <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
@@ -78,7 +92,7 @@ function Home() {
                   Learn More
                 </button>
               </div>
-            </home.Col>
+            </home.Col> */}
           </home.Row>
         </home.Container>
       </div>

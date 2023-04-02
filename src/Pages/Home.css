@@ -26,11 +26,56 @@
 
 .carousel_section{
     width: auto;
-    height: auto;
-    background-color: #fff7ec;
-    /* background-image: url('../Images/back.jpg');
+    height: 90vh;
+    /* background-color: #fff7ec; */
+    background-image: url('../Images/i4.jpg');
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    /* align-items: center;
+    position: relative;
+    justify-content: center; */
+}
+.carousel_section1{
+    width: auto;
+    height: 90vh;
+    /* background-color: #fff7ec; */
+    background-image: url('../Images/i3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    /* align-items: center;
+    position: relative;
+    justify-content: center; */
+}
+.carousel_section2{
+    width: auto;
+    height: 90vh;
+    /* background-color: #fff7ec; */
+    background-image: url('../Images/i7.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    /* align-items: center;
+    position: relative;
+    justify-content: center; */
+}
+.carousel_section3{
+    width: auto;
+    height: 90vh;
+    /* background-color: #fff7ec; */
+    background-image: url('../Images/i9.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     padding-top: 10rem;
