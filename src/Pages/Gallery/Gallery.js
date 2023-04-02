@@ -1,10 +1,12 @@
-import React from 'react'
-import './Gallery.css';
-import * as gala from 'react-bootstrap';
+import React from "react";
+import "./Gallery.css";
+import * as gala from "react-bootstrap";
+import logo from "../../Images/logo.png";
+
 function Gallery() {
   return (
     <div>
-         <div className="nav_section" id="nav_section">
+      <div className="nav_section" id="nav_section">
         <gala.Container className="nav_container">
           <gala.Nav
             className="justify-content-end"
@@ -30,8 +32,16 @@ function Gallery() {
           </gala.Nav>
         </gala.Container>
       </div>
+      <gala.Container className="logo">
+        <gala.Row>
+          <gala.Col lg={3} className="logo_col">
+            <gala.Image src={logo} className="logo-img" />
+          </gala.Col>
+        </gala.Row>
+      </gala.Container>
+
     </div>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;
