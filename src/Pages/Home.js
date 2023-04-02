@@ -72,15 +72,17 @@ function Home() {
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
-                <div className="content text-center">
+                {/* <div className="content text-center">
                   We are a not-for-profit organization implementing development
                   programs in Kenya bringing together human, financial and
                   technical resources to address some of the challenges faced by
                   the poorest and most marginalized communities.
-                </div>
-                <button className="btn btn-success mt-4 mb-3 homebtn">
+                </div> */}
+                <div className="homebtn">
+                <button className="btn btn-success mt-4 mb-3 ">
                   Learn More
                 </button>
+                </div>
               </div>
             </home.Col>
           </home.Row>
