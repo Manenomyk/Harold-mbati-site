@@ -73,7 +73,7 @@ function Home() {
                 </div> */}
                 <div className="homebtn">
                 <button className="btn btn-primary mt-4 mb-3 ">
-                  <a href="/about" style={{textDecoration:'none', color:"white"}}>Learn More</a>
+                  <a href="/about" style={{textDecoration:'none', color:"white"}}>Know Us More</a>
                 </button>
                 </div>
               </div>
