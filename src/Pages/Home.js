@@ -44,7 +44,12 @@ function Home() {
               </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link eventKey="link-3">Donate</home.Nav.Link>
+              <home.Nav.Link href="/Gallery" eventKey="link-3">
+                Gallery
+              </home.Nav.Link>
+            </home.Nav.Item>
+            <home.Nav.Item className="link_items">
+              <home.Nav.Link eventKey="link-4">Donate</home.Nav.Link>
             </home.Nav.Item>
           </home.Nav>
         </home.Container>

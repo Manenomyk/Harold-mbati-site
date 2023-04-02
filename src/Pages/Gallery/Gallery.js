@@ -2,6 +2,7 @@ import React from "react";
 import "./Gallery.css";
 import * as gala from "react-bootstrap";
 import logo from "../../Images/logo.png";
+import Contact from "../Contact/Contact";
 
 function Gallery() {
   return (
@@ -17,7 +18,7 @@ function Gallery() {
               <gala.Nav.Link href="/">Who We Are</gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link href="#JoinUs" eventKey="link-1">
+              <gala.Nav.Link href="/" eventKey="link-1">
                 How To Help
               </gala.Nav.Link>
             </gala.Nav.Item>
@@ -40,6 +41,10 @@ function Gallery() {
         </gala.Row>
       </gala.Container>
 
+      <div className="ContactSection">
+        <a name="Contact"></a>
+        <Contact />
+      </div>
     </div>
   );
 }
