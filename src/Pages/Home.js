@@ -50,18 +50,18 @@ function Home() {
         </home.Container>
       </div>
       <a name="Home"></a>
-      <div >
+      <div className="firstsection">
         <home.Carousel>
-          <home.CarouselItem className="carousel_section">
+          <home.CarouselItem className="carousel_section bg-img">
 
           </home.CarouselItem>
-          <home.CarouselItem className="carousel_section1">
+          <home.CarouselItem className="carousel_section bg-img1">
 
           </home.CarouselItem>
-          <home.CarouselItem className="carousel_section2">
+          <home.CarouselItem className="carousel_section bg-img2">
 
           </home.CarouselItem>
-          <home.CarouselItem className="carousel_section3">
+          <home.CarouselItem className="carousel_section bg-img3">
 
           </home.CarouselItem>
         </home.Carousel>
