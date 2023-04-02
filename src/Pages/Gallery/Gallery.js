@@ -3,6 +3,11 @@ import "./Gallery.css";
 import * as gala from "react-bootstrap";
 import logo from "../../Images/logo.png";
 import Contact from "../Contact/Contact";
+import i2 from "../../Images/i2.jpg";
+import i3 from "../../Images/i3.jpg";
+import i4 from "../../Images/i4.jpg";
+import i5 from "../../Images/i5.jpg";
+import i6 from "../../Images/i6.jpg";
 
 function Gallery() {
   return (
@@ -40,7 +45,42 @@ function Gallery() {
           </gala.Col>
         </gala.Row>
       </gala.Container>
-
+    <gala.Container className="galacont">
+        <gala.Row>
+            <gala.Col lg={3} className="mx-aoto">
+                <gala.Image
+                src={i2}
+                className="d-block w-100"
+                alt="picture1"
+                fluid
+                />
+            </gala.Col>
+            <gala.Col lg={3} className="mx-aoto">
+                <gala.Image
+                src={i3}
+                className="d-block w-100"
+                alt="picture2"
+                fluid
+                />
+            </gala.Col>
+            <gala.Col lg={3} className="mx-aoto">
+                <gala.Image
+                src={i4}
+                className="d-block w-100"
+                alt="picture3"
+                fluid
+                />
+            </gala.Col>
+            <gala.Col lg={3} className="mx-aoto">
+                <gala.Image
+                src={i5}
+                className="d-block w-100"
+                alt="picture3"
+                fluid
+                />
+            </gala.Col>
+        </gala.Row>
+    </gala.Container>
       <div className="ContactSection">
         <a name="Contact"></a>
         <Contact />
