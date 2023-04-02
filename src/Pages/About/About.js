@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import * as about from 'react-bootstrap';
+import logo from "../../Images/logo.png";
 
 function About() {
   return (
@@ -31,6 +32,13 @@ function About() {
           </about.Nav>
         </about.Container>
       </div>
+      <about.Container className="logo">
+        <about.Row>
+          <about.Col lg={3} className="logo_col">
+            <about.Image src={logo} className="logo-img" />
+          </about.Col>
+        </about.Row>
+      </about.Container>
     </div>
   )
 }
