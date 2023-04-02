@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import * as about from 'react-bootstrap';
 import logo from "../../Images/logo.png";
-
+import Contact  from '../Contact/Contact';
 function About() {
   return (
     <div>
@@ -14,10 +14,10 @@ function About() {
             defaultActiveKey="/"
           >
             <about.Nav.Item className="link_items">
-              <about.Nav.Link href="#Home">Who We Are</about.Nav.Link>
+              <about.Nav.Link href="/">Who We Are</about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
-              <about.Nav.Link href="#JoinUs" eventKey="link-1">
+              <about.Nav.Link href="/" eventKey="link-1">
                 How To Help
               </about.Nav.Link>
             </about.Nav.Item>
@@ -39,6 +39,12 @@ function About() {
           </about.Col>
         </about.Row>
       </about.Container>
+
+
+      <div className="ContactSection">
+        <a name="Contact"></a>
+        <Contact />
+      </div>
     </div>
   )
 }

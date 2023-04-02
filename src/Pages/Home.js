@@ -31,7 +31,7 @@ function Home() {
             defaultActiveKey="/"
           >
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="#Home">Who We Are</home.Nav.Link>
+              <home.Nav.Link href="/">Who We Are</home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
               <home.Nav.Link href="#JoinUs" eventKey="link-1">
@@ -72,7 +72,7 @@ function Home() {
                 </div> */}
                 <div className="homebtn">
                 <button className="btn btn-primary mt-4 mb-3 ">
-                  Learn More
+                  <a href="/about" style={{textDecoration:'none', color:"white"}}>Learn More</a>
                 </button>
                 </div>
               </div>
