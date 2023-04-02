@@ -14,12 +14,7 @@ function About() {
             defaultActiveKey="/"
           >
             <about.Nav.Item className="link_items">
-              <about.Nav.Link href="/">Who We Are</about.Nav.Link>
-            </about.Nav.Item>
-            <about.Nav.Item className="link_items">
-              <about.Nav.Link href="/" eventKey="link-1">
-                How To Help
-              </about.Nav.Link>
+              <about.Nav.Link href="/">Home</about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
               <about.Nav.Link href="#Contact" eventKey="link-2">
