@@ -40,6 +40,21 @@ function About() {
         </about.Row>
       </about.Container>
 
+      <about.Container>
+        <about.Row>
+          <about.Col lg={5} className='mx-auto'>
+            <about.Image 
+            src={logo} 
+            className='d-block w-100'
+            fluid
+            alt='logo image'
+            />
+          </about.Col>
+          <about.Col lg={5} className='mx-auto'>
+
+          </about.Col>
+        </about.Row>
+      </about.Container>
 
       <div className="ContactSection">
         <a name="Contact"></a>
