@@ -17,18 +17,20 @@ import i13 from "../../Images/i13.JPG";
 import i6 from "../../Images/i6.jpg";
 
 function MyVerticallyCenteredModal(props) {
+
   return (
     <gala.Modal
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      id="imagemodal"
     >
       <gala.Modal.Header closeButton>
         <gala.Modal.Title id="contained-modal-title-vcenter"></gala.Modal.Title>
       </gala.Modal.Header>
       <gala.Modal.Body>
-        <gala.Image src={i6} className="ala" alt="image"/>
+        <gala.Image src="../../Images/i6.jpg" className="ala" alt="image"/>
       </gala.Modal.Body>
       {/* <gala.Modal.Footer></gala.Modal.Footer> */}
     </gala.Modal>
@@ -36,6 +38,15 @@ function MyVerticallyCenteredModal(props) {
 }
 
 function Gallery() {
+  document.addEventListener('click', function(e){
+    if(e.target.classList.contains("imagegala")){
+      const src= e.target.getAttribute('src');
+      console.log(src);
+      // document.querySelector(".ala").src = src;
+      // const myModal = new gala.Modal(document.getElementById('imagemodal'));
+      // myModal.show();
+    };
+  })
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
