@@ -27,12 +27,7 @@ function Gallery() {
             defaultActiveKey="/"
           >
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link href="/">Who We Are</gala.Nav.Link>
-            </gala.Nav.Item>
-            <gala.Nav.Item className="link_items">
-              <gala.Nav.Link href="/" eventKey="link-1">
-                How To Help
-              </gala.Nav.Link>
+              <gala.Nav.Link href="/">Home</gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
               <gala.Nav.Link href="#Contact" eventKey="link-2">
