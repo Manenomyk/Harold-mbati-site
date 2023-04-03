@@ -25,25 +25,15 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <gala.Modal.Header closeButton>
-        <gala.Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </gala.Modal.Title>
+        <gala.Modal.Title id="contained-modal-title-vcenter"></gala.Modal.Title>
       </gala.Modal.Header>
       <gala.Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <gala.Image src={i6} className="ala" alt="image"/>
       </gala.Modal.Body>
-      <gala.Modal.Footer>
-        <gala.Button onClick={props.onHide}>Close</gala.Button>
-      </gala.Modal.Footer>
+      {/* <gala.Modal.Footer></gala.Modal.Footer> */}
     </gala.Modal>
   );
 }
-
 
 function Gallery() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -181,13 +171,13 @@ function Gallery() {
           </gala.Col>
         </gala.Row>
         <gala.Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch
-      </gala.Button>
+          Launch
+        </gala.Button>
 
-      <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+        <MyVerticallyCenteredModal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+        />
       </gala.Container>
 
       <div className="ContactSection">
