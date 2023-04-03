@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Gallery.css";
 import * as gala from "react-bootstrap";
 import logo from "../../Images/logo.png";
@@ -16,7 +16,37 @@ import i12 from "../../Images/i12.JPG";
 import i13 from "../../Images/i13.JPG";
 import i6 from "../../Images/i6.jpg";
 
+function MyVerticallyCenteredModal(props) {
+  return (
+    <gala.Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <gala.Modal.Header closeButton>
+        <gala.Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </gala.Modal.Title>
+      </gala.Modal.Header>
+      <gala.Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+      </gala.Modal.Body>
+      <gala.Modal.Footer>
+        <gala.Button onClick={props.onHide}>Close</gala.Button>
+      </gala.Modal.Footer>
+    </gala.Modal>
+  );
+}
+
+
 function Gallery() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
       <div className="nav_section" id="nav_section">
@@ -47,112 +77,119 @@ function Gallery() {
           </gala.Col>
         </gala.Row>
       </gala.Container>
-    <gala.Container className="galacont">
+      <gala.Container className="galacont">
         <gala.Row className="mb-2">
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3 ">
-                <gala.Image
-                src={i2}
-                className="d-block w-100 imagegala"
-                alt="picture1"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i3}
-                className="d-block w-100 imagegala"
-                alt="picture2"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i4}
-                className="d-block w-100 imagegala"
-                alt="picture3"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i5}
-                className="d-block w-100 imagegala"
-                alt="picture3"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i6}
-                className="d-block w-100 imagegala"
-                alt="picture3"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i7}
-                className="d-block w-100 imagegala"
-                alt="picture1"
-                fluid
-                />
-            </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3 ">
+            <gala.Image
+              src={i2}
+              className="d-block w-100 imagegala"
+              alt="picture1"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i3}
+              className="d-block w-100 imagegala"
+              alt="picture2"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i4}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i5}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i6}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i7}
+              className="d-block w-100 imagegala"
+              alt="picture1"
+              fluid
+            />
+          </gala.Col>
         </gala.Row>
         <gala.Row className="mb-2">
-            
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i8}
-                className="d-block w-100 imagegala"
-                alt="picture2"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i9}
-                className="d-block w-100 imagegala"
-                alt="picture3"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i10}
-                className="d-block w-100 imagegala"
-                alt="picture3"
-                fluid
-                />
-            </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i8}
+              className="d-block w-100 imagegala"
+              alt="picture2"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i9}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i10}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
+            />
+          </gala.Col>
         </gala.Row>
         <gala.Row className="mb-2">
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i11}
-                className="d-block w-100 imagegala"
-                alt="picture1"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i12}
-                className="d-block w-100 imagegala"
-                alt="picture2"
-                fluid
-                />
-            </gala.Col>
-            <gala.Col lg={4} xs={10} className="mx-auto mb-3">
-                <gala.Image
-                src={i13}
-                className="d-block w-100 imagegala"
-                alt="picture3"
-                fluid
-                />
-            </gala.Col>
-            
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i11}
+              className="d-block w-100 imagegala"
+              alt="picture1"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i12}
+              className="d-block w-100 imagegala"
+              alt="picture2"
+              fluid
+            />
+          </gala.Col>
+          <gala.Col lg={4} xs={10} className="mx-auto mb-3">
+            <gala.Image
+              src={i13}
+              className="d-block w-100 imagegala"
+              alt="picture3"
+              fluid
+            />
+          </gala.Col>
         </gala.Row>
-    </gala.Container>
+        <gala.Button variant="primary" onClick={() => setModalShow(true)}>
+        Launch
+      </gala.Button>
+
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+      </gala.Container>
+
       <div className="ContactSection">
         <a name="Contact"></a>
         <Contact />
