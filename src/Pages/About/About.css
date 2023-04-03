@@ -13,5 +13,12 @@
 }
 .topimagesect{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
+}
+.topimage{
+    background-image: url(../../Images/about.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
