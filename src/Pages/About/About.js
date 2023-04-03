@@ -47,6 +47,25 @@ function About() {
           </about.Container>
         </div>
       </div>
+
+    <about.Container>
+      <div className='mx-auto weare'>
+        <div>
+        What we do
+        <div className="underline2 mx-auto"></div>
+        </div>
+
+      </div>
+      <about.Row>
+        <about.Col lg={3} >
+
+        </about.Col>
+      </about.Row>
+    </about.Container>
+
+
+
+
       <about.Container className='aboutcontain'>
         <about.Row>
           <about.Col lg={5} className='mx-auto'>
