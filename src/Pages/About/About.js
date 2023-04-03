@@ -34,7 +34,11 @@ function About() {
           </about.Col>
         </about.Row>
       </about.Container>
-
+      <div className='topimagesect'>
+        <div className='topimage'>
+          
+        </div>
+      </div>
       <about.Container className='aboutcontain'>
         <about.Row>
           <about.Col lg={5} className='mx-auto'>
