@@ -22,3 +22,21 @@
     background-size: cover;
     background-position: center;
 }
+.tohome{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: all 3s;
+}
+.tohome:hover{
+    color: rgb(233, 245, 255);
+}
+.abouttopdiv{
+    padding-top: 10rem;
+    margin-bottom: 1rem;
+}
+.aboutcontdiv{
+    color: white;
+    font-size: 40px;
+
+}

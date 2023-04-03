@@ -3,6 +3,7 @@ import './About.css';
 import * as about from 'react-bootstrap';
 import logo from "../../Images/logo.png";
 import Contact  from '../Contact/Contact';
+import { MdDoubleArrow } from "react-icons/md";
 function About() {
   return (
     <div>
@@ -36,7 +37,14 @@ function About() {
       </about.Container>
       <div className='topimagesect'>
         <div className='topimage'>
-          
+          <about.Container>
+            <div className='abouttopdiv'>
+              <a href="/" className='tohome'>Home <MdDoubleArrow /></a>
+            </div>
+            <div className='aboutcontdiv'>
+              About Us
+            </div>
+          </about.Container>
         </div>
       </div>
       <about.Container className='aboutcontain'>
