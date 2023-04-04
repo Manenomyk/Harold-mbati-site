@@ -91,7 +91,7 @@ function About() {
           </about.Col>
           <about.Col lg={6} className="mx-auto mb-5">
             <div>
-              <div className="about">About Us</div>
+              <div className="about"></div>
               <div className="underline3"></div>
 
               <div className="conten">

@@ -139,13 +139,13 @@ function Home() {
                   </p>
                   <div>
                     <p className="advice text-center">
-                      We are be glad to invite you to partner with us through
+                      We are glad to invite you to partner with us through
                       your time and service
                     </p>
                     <p className="advice">#WeValueYourSacrifice</p>
                   </div>
                   <div className="advice">
-                    <button className="btn btn-primary">Learn more</button>
+                    <button className="btn btn-primary">Reach Us Out</button>
                   </div>
                 </home.Card.Body>
               </home.Card>

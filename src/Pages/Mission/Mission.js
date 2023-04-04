@@ -156,8 +156,7 @@ function Mission() {
                       <div className="youthhead">Sports</div>
                       <div className="tag ">
                         <b>
-                          "Persistence can change failure into extraordinary
-                          achievement"
+                        “Opportunities don't happen, you create them.”
                         </b>
                       </div>
                       <div className="info">
