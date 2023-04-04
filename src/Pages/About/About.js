@@ -74,7 +74,7 @@ function About() {
               alt="logo image"
             />
           </about.Col>
-          <about.Col lg={6} className="mx-auto">
+          <about.Col lg={6} className="mx-auto mb-5" >
             <div>
               <div className="about">About Us</div>
               <div className="underline3"></div>
@@ -104,7 +104,7 @@ function About() {
               </div>
             </div>
 
-            <about.Col lg={3} className="mx-auto">
+            <about.Col lg={3} className="mx-auto mb-5">
               <div>
                 <div className="spot">
                   <about.Image
@@ -116,7 +116,7 @@ function About() {
                 <div className="youthem">Youth Empowerment</div>
               </div>
             </about.Col>
-            <about.Col lg={3} className="mx-auto">
+            <about.Col lg={3} className="mx-auto mb-5">
               <div>
                 <div className="spot">
                   <about.Image src={mom} className="d-block w-50" alt="youth" />
@@ -124,7 +124,7 @@ function About() {
                 <div className="youthem">Mother Child Care</div>
               </div>
             </about.Col>
-            <about.Col lg={3} className="mx-auto">
+            <about.Col lg={3} className="mx-auto mb-5">
               <div>
                 <div className="spot">
                   <about.Image
@@ -136,7 +136,7 @@ function About() {
                 <div className="youthem">School Development</div>
               </div>
             </about.Col>
-            <about.Col lg={3} className="mx-auto">
+            <about.Col lg={3} className="mx-auto mb-5">
               <div>
                 <div className="spot">
                   <about.Image
@@ -153,7 +153,7 @@ function About() {
       </div>
       <about.Container className="missionstate">
         <about.Row>
-          <about.Col lg={4} className="mx-auto">
+          <about.Col lg={4} className="mx-auto mb-4">
             <div>
               <div className="youthem">
                 <div>
@@ -167,7 +167,7 @@ function About() {
               </div>
             </div>
           </about.Col>
-          <about.Col lg={4} className="mx-auto">
+          <about.Col lg={4} className="mx-auto mb-4">
             <div>
             <div className="youthem">
                 <div>
