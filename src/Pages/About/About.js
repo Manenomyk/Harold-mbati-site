@@ -8,9 +8,20 @@ import youth from "../../Images/youth.svg";
 import ball from "../../Images/ball.svg";
 import school from "../../Images/school.svg";
 import mom from "../../Images/mom.svg";
+import { Helmet } from "react-helmet";
+
 function About() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Harold Mbati Foundation</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Awesome resort you need to checkout"
+        />
+      </Helmet>
       <div className="nav_section" id="nav_section">
         <about.Container className="nav_container">
           <about.Nav
@@ -19,7 +30,9 @@ function About() {
             defaultActiveKey="/"
           >
             <about.Nav.Item className="link_items">
-              <about.Nav.Link id="linkitems" href="/">Home</about.Nav.Link>
+              <about.Nav.Link id="linkitems" href="/">
+                Home
+              </about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
               <about.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
@@ -27,7 +40,9 @@ function About() {
               </about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
-              <about.Nav.Link id="linkitems" eventKey="link-3">Donate</about.Nav.Link>
+              <about.Nav.Link id="linkitems" eventKey="link-3">
+                Donate
+              </about.Nav.Link>
             </about.Nav.Item>
           </about.Nav>
         </about.Container>
@@ -74,7 +89,7 @@ function About() {
               alt="logo image"
             />
           </about.Col>
-          <about.Col lg={6} className="mx-auto mb-5" >
+          <about.Col lg={6} className="mx-auto mb-5">
             <div>
               <div className="about">About Us</div>
               <div className="underline3"></div>
@@ -169,7 +184,7 @@ function About() {
           </about.Col>
           <about.Col lg={4} className="mx-auto mb-4">
             <div>
-            <div className="youthem">
+              <div className="youthem">
                 <div>
                   Our Vision
                   <div className="underline5 mx-auto"></div>
