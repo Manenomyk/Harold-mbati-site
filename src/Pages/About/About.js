@@ -4,7 +4,10 @@ import * as about from "react-bootstrap";
 import logo from "../../Images/logo.png";
 import Contact from "../Contact/Contact";
 import { MdDoubleArrow } from "react-icons/md";
-import youth from "../../Images/youth.jpg";
+import youth from "../../Images/youth.svg";
+import ball from "../../Images/ball.svg";
+import school from "../../Images/school.svg";
+import mom from "../../Images/mom.svg";
 function About() {
   return (
     <div>
@@ -103,8 +106,8 @@ function About() {
             
             <about.Col lg={3} className="mx-auto">
                 <div>
-                  <div>
-                    <about.Image src={youth} className="d-block w-100" alt="youth" />
+                  <div className="spot">
+                    <about.Image src={youth} className="d-block w-50" alt="youth" />
                   </div>
                   <div className="youthem">
                     Youth Empowerment
@@ -113,8 +116,8 @@ function About() {
             </about.Col>
             <about.Col lg={3} className="mx-auto">
             <div>
-                  <div>
-                    <about.Image src={youth} className="d-block w-100" alt="youth" />
+                  <div className="spot">
+                    <about.Image src={mom} className="d-block w-50" alt="youth" />
                   </div>
                   <div className="youthem">
                     Mother Child Care
@@ -123,8 +126,8 @@ function About() {
             </about.Col>
             <about.Col lg={3} className="mx-auto">
             <div>
-                  <div>
-                    <about.Image src={youth} className="d-block w-100" alt="youth" />
+                  <div className="spot">
+                    <about.Image src={school} className="d-block w-50" alt="youth" />
                   </div>
                   <div className="youthem">
                     School Development
@@ -133,8 +136,8 @@ function About() {
             </about.Col>
             <about.Col lg={3} className="mx-auto">
             <div>
-                  <div>
-                    <about.Image src={youth} className="d-block w-100" alt="youth" />
+                  <div className="spot">
+                    <about.Image src={ball} className="d-block w-50" alt="youth" />
                   </div>
                   <div className="youthem">
                     Sports

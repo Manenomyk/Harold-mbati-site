@@ -85,3 +85,7 @@ background-color: #eff6fc;
     font-size: 19px;
     margin-top: 1rem;
 }
+.spot{
+    display: flex;
+    justify-content: center;
+}
