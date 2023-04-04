@@ -151,7 +151,7 @@ function About() {
           </about.Row>
         </about.Container>
       </div>
-      <about.Container>
+      <about.Container className="missionstate">
         <about.Row>
           <about.Col lg={4} className="mx-auto">
             <div>
