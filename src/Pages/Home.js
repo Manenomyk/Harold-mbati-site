@@ -70,7 +70,7 @@ function Home() {
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
                 <div className="homebtn">
-                  <button className="btn btn-primary mt-4 mb-3 ">
+                  <button className="btn btn-success mt-4 mb-3 ">
                     <a
                       href="/about"
                       style={{ textDecoration: "none", color: "white" }}
