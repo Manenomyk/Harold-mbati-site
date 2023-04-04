@@ -19,15 +19,15 @@ function About() {
             defaultActiveKey="/"
           >
             <about.Nav.Item className="link_items">
-              <about.Nav.Link href="/">Home</about.Nav.Link>
+              <about.Nav.Link id="linkitems" href="/">Home</about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
-              <about.Nav.Link href="#Contact" eventKey="link-2">
+              <about.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
                 Contact Us
               </about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
-              <about.Nav.Link eventKey="link-3">Donate</about.Nav.Link>
+              <about.Nav.Link id="linkitems" eventKey="link-3">Donate</about.Nav.Link>
             </about.Nav.Item>
           </about.Nav>
         </about.Container>
