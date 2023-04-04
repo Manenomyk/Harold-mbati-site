@@ -31,25 +31,25 @@ function Home() {
             defaultActiveKey="/"
           >
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="/">Who We Are</home.Nav.Link>
+              <home.Nav.Link id="linkitems" href="/">Who We Are</home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="#JoinUs" eventKey="link-1">
+              <home.Nav.Link id="linkitems" href="#JoinUs" eventKey="link-1">
                 How To Help
               </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="#Contact" eventKey="link-2">
+              <home.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
                 Contact Us
               </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link href="/Gallery" eventKey="link-3">
+              <home.Nav.Link id="linkitems" href="/Gallery" eventKey="link-3">
                 Gallery
               </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link eventKey="link-4">Donate</home.Nav.Link>
+              <home.Nav.Link id="linkitems" eventKey="link-4">Donate</home.Nav.Link>
             </home.Nav.Item>
           </home.Nav>
         </home.Container>
