@@ -15,9 +15,9 @@ import i11 from "../../Images/i11.JPG";
 import i12 from "../../Images/i12.JPG";
 import i13 from "../../Images/i13.JPG";
 import i6 from "../../Images/i6.jpg";
+import { Helmet } from "react-helmet";
 
 function MyVerticallyCenteredModal(props) {
-
   return (
     <gala.Modal
       {...props}
@@ -30,7 +30,7 @@ function MyVerticallyCenteredModal(props) {
         <gala.Modal.Title id="contained-modal-title-vcenter"></gala.Modal.Title>
       </gala.Modal.Header>
       <gala.Modal.Body>
-        <gala.Image src="../../Images/i6.jpg" className="ala" alt="image"/>
+        <gala.Image src="../../Images/i6.jpg" className="ala" alt="image" />
       </gala.Modal.Body>
       {/* <gala.Modal.Footer></gala.Modal.Footer> */}
     </gala.Modal>
@@ -38,18 +38,27 @@ function MyVerticallyCenteredModal(props) {
 }
 
 function Gallery() {
-  document.addEventListener('click', function(e){
-    if(e.target.classList.contains("imagegala")){
-      const src= e.target.getAttribute('src');
+  document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("imagegala")) {
+      const src = e.target.getAttribute("src");
       console.log(src);
       // document.querySelector(".ala").src = src;
       // const myModal = new gala.Modal(document.getElementById('imagemodal'));
       // myModal.show();
-    };
-  })
+    }
+  });
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Harold Mbati Foundation</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta
+          name="description"
+          content="Awesome resort you need to checkout"
+        />
+      </Helmet>
       <div className="nav_section" id="nav_section">
         <gala.Container className="nav_container">
           <gala.Nav
@@ -58,7 +67,9 @@ function Gallery() {
             defaultActiveKey="/"
           >
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link id="linkitems" href="/">Home</gala.Nav.Link>
+              <gala.Nav.Link id="linkitems" href="/">
+                Home
+              </gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
               <gala.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
@@ -66,7 +77,9 @@ function Gallery() {
               </gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link id="linkitems" eventKey="link-3">Donate</gala.Nav.Link>
+              <gala.Nav.Link id="linkitems" eventKey="link-3">
+                Donate
+              </gala.Nav.Link>
             </gala.Nav.Item>
           </gala.Nav>
         </gala.Container>
