@@ -70,7 +70,7 @@ function About() {
               alt="logo image"
             />
           </about.Col>
-          <about.Col lg={5} className="mx-auto">
+          <about.Col lg={6} className="mx-auto">
             <div>
               <div className="about">About Us</div>
               <div className="underline3"></div>
@@ -90,6 +90,31 @@ function About() {
           </about.Col>
         </about.Row>
       </about.Container>
+      <div className="rdsection">
+        <about.Container className="rdcontainer">
+          <about.Row>
+            <div className="aim">
+              <div>
+              Our Pride and Aim
+              <div className="underline4 mx-auto"></div>
+              </div>
+              </div> 
+            
+            <about.Col lg={3} className="mx-auto">
+
+            </about.Col>
+            <about.Col lg={3} className="mx-auto">
+              
+            </about.Col>
+            <about.Col lg={3} className="mx-auto">
+              
+            </about.Col>
+            <about.Col lg={3} className="mx-auto">
+              
+            </about.Col>
+          </about.Row>
+        </about.Container>
+      </div>
 
       <div className="ContactSection">
         <a name="Contact"></a>
