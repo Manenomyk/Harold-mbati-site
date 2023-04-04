@@ -99,55 +99,90 @@ function About() {
           <about.Row>
             <div className="aim">
               <div>
-              Our Pride and Aim
-              <div className="underline4 mx-auto"></div>
+                Our Pride and Aims
+                <div className="underline4 mx-auto"></div>
               </div>
-              </div> 
-            
+            </div>
+
             <about.Col lg={3} className="mx-auto">
-                <div>
-                  <div className="spot">
-                    <about.Image src={youth} className="d-block w-50" alt="youth" />
-                  </div>
-                  <div className="youthem">
-                    Youth Empowerment
-                  </div>
+              <div>
+                <div className="spot">
+                  <about.Image
+                    src={youth}
+                    className="d-block w-50"
+                    alt="youth"
+                  />
                 </div>
+                <div className="youthem">Youth Empowerment</div>
+              </div>
             </about.Col>
             <about.Col lg={3} className="mx-auto">
-            <div>
-                  <div className="spot">
-                    <about.Image src={mom} className="d-block w-50" alt="youth" />
-                  </div>
-                  <div className="youthem">
-                    Mother Child Care
-                  </div>
+              <div>
+                <div className="spot">
+                  <about.Image src={mom} className="d-block w-50" alt="youth" />
                 </div>
+                <div className="youthem">Mother Child Care</div>
+              </div>
             </about.Col>
             <about.Col lg={3} className="mx-auto">
-            <div>
-                  <div className="spot">
-                    <about.Image src={school} className="d-block w-50" alt="youth" />
-                  </div>
-                  <div className="youthem">
-                    School Development
-                  </div>
+              <div>
+                <div className="spot">
+                  <about.Image
+                    src={school}
+                    className="d-block w-50"
+                    alt="youth"
+                  />
                 </div>
+                <div className="youthem">School Development</div>
+              </div>
             </about.Col>
             <about.Col lg={3} className="mx-auto">
-            <div>
-                  <div className="spot">
-                    <about.Image src={ball} className="d-block w-50" alt="youth" />
-                  </div>
-                  <div className="youthem">
-                    Sports
-                  </div>
+              <div>
+                <div className="spot">
+                  <about.Image
+                    src={ball}
+                    className="d-block w-50"
+                    alt="youth"
+                  />
                 </div>
+                <div className="youthem">Sports Development</div>
+              </div>
             </about.Col>
           </about.Row>
         </about.Container>
       </div>
-
+      <about.Container>
+        <about.Row>
+          <about.Col lg={4} className="mx-auto">
+            <div>
+              <div className="youthem">
+                <div>
+                  Our Mission
+                  <div className="underline5 mx-auto"></div>
+                </div>
+              </div>
+              <div className="mx-auto text-center">
+                To impact the livelihoods of the people of Luanda Constituency
+                towards self-reliance
+              </div>
+            </div>
+          </about.Col>
+          <about.Col lg={4} className="mx-auto">
+            <div>
+            <div className="youthem">
+                <div>
+                  Our Vision
+                  <div className="underline5 mx-auto"></div>
+                </div>
+              </div>
+              <div className="mx-auto text-center">
+                Promoting an enhanced socio-economic environment where everyone
+                can thrive
+              </div>
+            </div>
+          </about.Col>
+        </about.Row>
+      </about.Container>
       <div className="ContactSection">
         <a name="Contact"></a>
         <Contact />
