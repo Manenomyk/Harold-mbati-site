@@ -79,3 +79,9 @@ background-color: #eff6fc;
     background-color: #c5222a;
     margin-bottom: 30px;
 }
+.youthem{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    margin-top: 1rem;
+}

@@ -4,6 +4,7 @@ import * as about from "react-bootstrap";
 import logo from "../../Images/logo.png";
 import Contact from "../Contact/Contact";
 import { MdDoubleArrow } from "react-icons/md";
+import youth from "../../Images/youth.jpg";
 function About() {
   return (
     <div>
@@ -101,7 +102,14 @@ function About() {
               </div> 
             
             <about.Col lg={3} className="mx-auto">
-
+                <div>
+                  <div>
+                    <about.Image src={youth} className="d-block w-100" alt="youth" />
+                  </div>
+                  <div className="youthem">
+                    Youth Empowerment
+                  </div>
+                </div>
             </about.Col>
             <about.Col lg={3} className="mx-auto">
               
