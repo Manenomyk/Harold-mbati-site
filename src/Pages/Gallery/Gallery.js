@@ -58,15 +58,15 @@ function Gallery() {
             defaultActiveKey="/"
           >
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link href="/">Home</gala.Nav.Link>
+              <gala.Nav.Link id="linkitems" href="/">Home</gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link href="#Contact" eventKey="link-2">
+              <gala.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
                 Contact Us
               </gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link eventKey="link-3">Donate</gala.Nav.Link>
+              <gala.Nav.Link id="linkitems" eventKey="link-3">Donate</gala.Nav.Link>
             </gala.Nav.Item>
           </gala.Nav>
         </gala.Container>
