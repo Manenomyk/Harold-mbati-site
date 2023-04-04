@@ -127,12 +127,19 @@ function About() {
                     <about.Image src={youth} className="d-block w-100" alt="youth" />
                   </div>
                   <div className="youthem">
-                    People with disability
+                    School Development
                   </div>
                 </div>
             </about.Col>
             <about.Col lg={3} className="mx-auto">
-              
+            <div>
+                  <div>
+                    <about.Image src={youth} className="d-block w-100" alt="youth" />
+                  </div>
+                  <div className="youthem">
+                    Sports
+                  </div>
+                </div>
             </about.Col>
           </about.Row>
         </about.Container>
