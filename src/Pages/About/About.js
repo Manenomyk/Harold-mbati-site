@@ -168,7 +168,7 @@ function About() {
         <about.Container>
           <hr />
           <about.Row>
-            <about.Col lg={5} className="mx-auto">
+            <about.Col lg={5} xs={10} className="mx-auto">
               <hr />
               <div className="youthem"> Youth Empowerment</div>
               <div className="underline5 mx-auto"></div>
@@ -185,7 +185,7 @@ function About() {
                 community.
               </div>
             </about.Col>
-            <about.Col lg={5} className="mx-auto">
+            <about.Col lg={5} xs={10} className="mx-auto">
               <hr />
               <div className="youthem">Mother Child Care</div>
               <div className="underline5 mx-auto"></div>
@@ -206,7 +206,7 @@ function About() {
 
           <hr />
           <about.Row>
-            <about.Col lg={5} className="mx-auto">
+            <about.Col lg={5} xs={10} className="mx-auto">
               <hr />
               <div className="youthem">School Development</div>
               <div className="underline5 mx-auto"></div>
@@ -242,7 +242,7 @@ function About() {
                 them.
               </div>
             </about.Col>
-            <about.Col lg={5} className="mx-auto">
+            <about.Col lg={5} xs={10} className="mx-auto">
               <hr />
               <div className="youthem">Sports Development</div>
               <div className="underline5 mx-auto"></div>
