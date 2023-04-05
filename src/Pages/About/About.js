@@ -234,25 +234,35 @@ function About() {
                   </ul>
                   <ul>Providing sanitary towels to girls in schools.</ul>
                 </li>
+                We are currently looking for partners and donors to ensure that
+                our programs run efficiently and students get the best out of
+                them.
               </div>
             </about.Col>
             <about.Col lg={5} className="mx-auto">
               <hr />
-              <div>Mother Child Care</div>
+              <div>Sports Development</div>
               <div>
-                From education to entrepreneurship, young people are slowly
-                changing the community. At Harold Mbati Foundation, we believe
-                that the youth are catalysts for development, and thus they
-                deserve a space in the community.
+                HMF, through Harold Mbati Champions Cup, promotes the role sport
+                can play in creating sustainable social change. We use the power
+                of sports to unite and transform lives by turning athletic
+                ability into life opportunities.
                 <br />
-                <br /> As frontline youth advocacy and policy-oriented
-                organization programming for Kenya. HMF provides a platform for
-                young people to interact, learn, collaborate, and develop
-                leadership and life skills and effect social change in the
-                community.
+                <br /> Harold Mbati Foundation looks to center health, wellbeing
+                and systemic solutions to the core of community recovery, and
+                ensure that the youths within Luanda are not further
+                disadvantaged. We are dedicated and committed to getting young
+                people realize and make good use of their talents by providing
+                them with guidance and opportunities to grow and succeed.
+                <br />
+                <br />
+                Currently, we are looking for donors and partners to support and
+                inspire our youths within Luanda realize and make good use of
+                their talents.
               </div>
             </about.Col>
           </about.Row>
+          <hr />
         </about.Container>
       </div>
       <about.Container className="missionstate">
