@@ -29,7 +29,9 @@ function Mission() {
                         <h2>Mother and Child Care</h2>
                       </div>
                       <div>content</div>
+                      <a href="/About">
                       <button className="btn btn-primary">Learn More</button>
+                      </a>
                     </div>
                   </div>
                   <div></div>
@@ -71,7 +73,9 @@ function Mission() {
                         development, and thus they deserve a space in the
                         community.
                       </div>
+                      <a href="/About">
                       <button className="btn btn-primary">Learn More</button>
+                      </a>
                     </div>
                   </div>
                   <div></div>
@@ -88,7 +92,9 @@ function Mission() {
                         <h2>People Living with Disability</h2>
                       </div>
                       <div>content</div>
+                      <a href="/About">
                       <button className="btn btn-success">Learn More</button>
+                      </a>
                     </div>
                   </div>
                   <div></div>
@@ -132,7 +138,9 @@ function Mission() {
                         education. Harold Mbati Foundation is aimed at ensuring
                         children get quality education in the society.
                       </div>
+                      <a href="/About">
                       <button className="btn btn-primary">Learn More</button>
+                      </a>
                     </div>
                   </div>
                   <div></div>
@@ -166,7 +174,9 @@ function Mission() {
                         transform lives by turning athletic ability into life
                         opportunities.
                       </div>
+                      <a href="/About">
                       <button className="btn btn-primary">Learn More</button>
+                      </a>
                     </div>
                   </div>
                   <div></div>
