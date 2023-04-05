@@ -61,7 +61,7 @@ function Donate() {
         </div>
       </div>
       <donate.Container>
-        <div className="mx-auto weare">
+        <div className="mx-auto weare1">
           <div>
             Ways to make Your Contribution
             <div className="underline3 mx-auto"></div>
