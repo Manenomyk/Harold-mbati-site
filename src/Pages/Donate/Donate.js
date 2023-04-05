@@ -6,6 +6,7 @@ import { MdDoubleArrow } from "react-icons/md";
 import pay from "../../Images/pay.svg";
 import phone from "../../Images/phone.svg";
 import bank from "../../Images/bank.svg";
+import Contact from "../Contact/Contact";
 import "./Donate.css";
 
 function Donate() {
@@ -147,6 +148,10 @@ function Donate() {
           </donate.Col>
         </donate.Row>
       </donate.Container>
+      <div className="ContactSection">
+        <a name="Contact"></a>
+        <Contact />
+      </div>
     </div>
   );
 }
