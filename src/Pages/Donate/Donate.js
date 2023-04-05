@@ -72,9 +72,9 @@ function Donate() {
         </donate.Row>
       </donate.Container>
 
-      <donate.Container>
+      <donate.Container className="donatesect">
         <donate.Row>
-          <donate.Col lg={4} className="mx-auto">
+          <donate.Col lg={4} xs={8} className="mx-auto mb-4">
             <donate.Card>
               <donate.Card.Body>
                 <div className="donateways">
@@ -98,7 +98,7 @@ function Donate() {
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
-          <donate.Col lg={4} className="mx-auto">
+          <donate.Col lg={4} xs={8} className="mx-auto mb-4">
             <donate.Card>
               <donate.Card.Body>
                 <div className="donateways">
@@ -122,7 +122,7 @@ function Donate() {
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
-          <donate.Col lg={4} className="mx-auto">
+          <donate.Col lg={4} xs={8} className="mx-auto mb-4">
             <donate.Card>
               <donate.Card.Body>
                 <div className="donateways">
