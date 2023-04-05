@@ -40,7 +40,7 @@ function About() {
               </about.Nav.Link>
             </about.Nav.Item>
             <about.Nav.Item className="link_items">
-              <about.Nav.Link id="linkitems" eventKey="link-3">
+              <about.Nav.Link id="linkitems" href="/Donate" eventKey="link-3">
                 Donate
               </about.Nav.Link>
             </about.Nav.Item>

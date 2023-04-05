@@ -77,7 +77,7 @@ function Gallery() {
               </gala.Nav.Link>
             </gala.Nav.Item>
             <gala.Nav.Item className="link_items">
-              <gala.Nav.Link id="linkitems" eventKey="link-3">
+              <gala.Nav.Link id="linkitems" href="/Donate" eventKey="link-3">
                 Donate
               </gala.Nav.Link>
             </gala.Nav.Item>

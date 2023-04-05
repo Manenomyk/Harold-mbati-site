@@ -52,7 +52,7 @@ function Home() {
               </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" eventKey="link-4">
+              <home.Nav.Link id="linkitems" href="/Donate" eventKey="link-4">
                 Donate
               </home.Nav.Link>
             </home.Nav.Item>
