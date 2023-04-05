@@ -176,11 +176,12 @@ function About() {
                 changing the community. At Harold Mbati Foundation, we believe
                 that the youth are catalysts for development, and thus they
                 deserve a space in the community.
-                <br /><br /> As frontline youth advocacy
-                and policy-oriented organization programming for Kenya. HMF
-                provides a platform for young people to interact, learn,
-                collaborate, and develop leadership and life skills and effect
-                social change in the community.
+                <br />
+                <br /> As frontline youth advocacy and policy-oriented
+                organization programming for Kenya. HMF provides a platform for
+                young people to interact, learn, collaborate, and develop
+                leadership and life skills and effect social change in the
+                community.
               </div>
             </about.Col>
             <about.Col lg={5} className="mx-auto">
@@ -191,30 +192,48 @@ function About() {
                 changing the community. At Harold Mbati Foundation, we believe
                 that the youth are catalysts for development, and thus they
                 deserve a space in the community.
-                <br /><br /> As frontline youth advocacy
-                and policy-oriented organization programming for Kenya. HMF
-                provides a platform for young people to interact, learn,
-                collaborate, and develop leadership and life skills and effect
-                social change in the community.
+                <br />
+                <br /> As frontline youth advocacy and policy-oriented
+                organization programming for Kenya. HMF provides a platform for
+                young people to interact, learn, collaborate, and develop
+                leadership and life skills and effect social change in the
+                community.
               </div>
             </about.Col>
           </about.Row>
-          
+
           <hr />
           <about.Row>
             <about.Col lg={5} className="mx-auto">
               <hr />
-              <div>Youth Empowerment</div>
+              <div>School Development</div>
               <div>
-                From education to entrepreneurship, young people are slowly
-                changing the community. At Harold Mbati Foundation, we believe
-                that the youth are catalysts for development, and thus they
-                deserve a space in the community.
-                <br /><br /> As frontline youth advocacy
-                and policy-oriented organization programming for Kenya. HMF
-                provides a platform for young people to interact, learn,
-                collaborate, and develop leadership and life skills and effect
-                social change in the community.
+                Everyone has a right to education irrespective of their status.
+                Education is a key to a positive society. We believe in not only
+                just education but quality education. Harold Mbati Foundation is
+                aimed at ensuring children get quality education in the society.
+                We have a wide range of programs touching on education including
+                but not limited to;
+                <br />
+                <br />
+                <li>
+                  <ul>
+                    Provision of learning materials to students. <br />
+                    <ol>
+                      -This includes exercise and text books, geometrical sets,
+                      pens and pencils. <br />
+                    </ol>
+                  </ul>
+                  <ul>
+                    Giving out school uniforms and shoes to the less fortunate
+                    students. <br />
+                  </ul>
+                  <ul>
+                    Donating sports equipment for co-curricular activities in
+                    schools.
+                  </ul>
+                  <ul>Providing sanitary towels to girls in schools.</ul>
+                </li>
               </div>
             </about.Col>
             <about.Col lg={5} className="mx-auto">
@@ -225,11 +244,12 @@ function About() {
                 changing the community. At Harold Mbati Foundation, we believe
                 that the youth are catalysts for development, and thus they
                 deserve a space in the community.
-                <br /><br /> As frontline youth advocacy
-                and policy-oriented organization programming for Kenya. HMF
-                provides a platform for young people to interact, learn,
-                collaborate, and develop leadership and life skills and effect
-                social change in the community.
+                <br />
+                <br /> As frontline youth advocacy and policy-oriented
+                organization programming for Kenya. HMF provides a platform for
+                young people to interact, learn, collaborate, and develop
+                leadership and life skills and effect social change in the
+                community.
               </div>
             </about.Col>
           </about.Row>
