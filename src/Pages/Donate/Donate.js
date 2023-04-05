@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import * as donate from "react-bootstrap";
 import logo from "../../Images/logo.png";
 import { MdDoubleArrow } from "react-icons/md";
+import './Donate.css';
 
 function Donate() {
   return (
@@ -44,7 +45,7 @@ function Donate() {
         </donate.Row>
       </donate.Container>
       <div className="topimagesect">
-        <div className="topimage">
+        <div className="topimage1">
           <donate.Container>
             <div className="abouttopdiv">
               <a href="/" className="tohome">
