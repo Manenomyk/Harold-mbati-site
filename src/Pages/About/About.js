@@ -170,7 +170,7 @@ function About() {
           <about.Row>
             <about.Col lg={5} className="mx-auto">
               <hr />
-              <div>Youth Empowerment</div>
+              <div className="youthem"> Youth Empowerment</div>
               <div>
                 From education to entrepreneurship, young people are slowly
                 changing the community. At Harold Mbati Foundation, we believe
@@ -186,7 +186,7 @@ function About() {
             </about.Col>
             <about.Col lg={5} className="mx-auto">
               <hr />
-              <div>Mother Child Care</div>
+              <div className="youthem">Mother Child Care</div>
               <div>
                 From education to entrepreneurship, young people are slowly
                 changing the community. At Harold Mbati Foundation, we believe
@@ -206,7 +206,7 @@ function About() {
           <about.Row>
             <about.Col lg={5} className="mx-auto">
               <hr />
-              <div>School Development</div>
+              <div className="youthem">School Development</div>
               <div>
                 Everyone has a right to education irrespective of their status.
                 Education is a key to a positive society. We believe in not only
@@ -241,7 +241,7 @@ function About() {
             </about.Col>
             <about.Col lg={5} className="mx-auto">
               <hr />
-              <div>Sports Development</div>
+              <div className="youthem">Sports Development</div>
               <div>
                 HMF, through Harold Mbati Champions Cup, promotes the role sport
                 can play in creating sustainable social change. We use the power
