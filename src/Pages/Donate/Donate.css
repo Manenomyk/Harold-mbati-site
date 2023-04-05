@@ -17,3 +17,8 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.donateicon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

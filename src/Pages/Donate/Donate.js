@@ -3,6 +3,9 @@ import { Helmet } from "react-helmet";
 import * as donate from "react-bootstrap";
 import logo from "../../Images/logo.png";
 import { MdDoubleArrow } from "react-icons/md";
+import pay from "../../Images/pay.svg";
+import phone from "../../Images/phone.svg";
+import bank from "../../Images/bank.svg";
 import "./Donate.css";
 
 function Donate() {
@@ -73,9 +76,15 @@ function Donate() {
           <donate.Col lg={4} className="mx-auto">
             <donate.Card>
               <donate.Card.Body>
-                <div  className="donateways">
+                <div className="donateways">
                   <div>
-                    <div>icon</div>
+                    <div className="donateicon">
+                      <donate.Image
+                        src={phone}
+                        className="d-block w-50"
+                        alt="Phone image"
+                      />
+                    </div>
                     <div>By phone</div>
                   </div>
                 </div>
