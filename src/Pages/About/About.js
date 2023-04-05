@@ -199,6 +199,40 @@ function About() {
               </div>
             </about.Col>
           </about.Row>
+          
+          <hr />
+          <about.Row>
+            <about.Col lg={5} className="mx-auto">
+              <hr />
+              <div>Youth Empowerment</div>
+              <div>
+                From education to entrepreneurship, young people are slowly
+                changing the community. At Harold Mbati Foundation, we believe
+                that the youth are catalysts for development, and thus they
+                deserve a space in the community.
+                <br /><br /> As frontline youth advocacy
+                and policy-oriented organization programming for Kenya. HMF
+                provides a platform for young people to interact, learn,
+                collaborate, and develop leadership and life skills and effect
+                social change in the community.
+              </div>
+            </about.Col>
+            <about.Col lg={5} className="mx-auto">
+              <hr />
+              <div>Mother Child Care</div>
+              <div>
+                From education to entrepreneurship, young people are slowly
+                changing the community. At Harold Mbati Foundation, we believe
+                that the youth are catalysts for development, and thus they
+                deserve a space in the community.
+                <br /><br /> As frontline youth advocacy
+                and policy-oriented organization programming for Kenya. HMF
+                provides a platform for young people to interact, learn,
+                collaborate, and develop leadership and life skills and effect
+                social change in the community.
+              </div>
+            </about.Col>
+          </about.Row>
         </about.Container>
       </div>
       <about.Container className="missionstate">
