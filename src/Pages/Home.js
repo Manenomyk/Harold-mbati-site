@@ -10,6 +10,7 @@ import { FcDonate } from "react-icons/fc";
 import { SiSololearn } from "react-icons/si";
 import { MdSettingsSuggest } from "react-icons/md";
 import { Helmet } from "react-helmet";
+import * as rev from "react-reveal";
 
 function Home() {
   return (
@@ -31,7 +32,9 @@ function Home() {
             defaultActiveKey="/"
           >
             <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" href="/">Who We Are</home.Nav.Link>
+              <home.Nav.Link id="linkitems" href="/">
+                Who We Are
+              </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
               <home.Nav.Link id="linkitems" href="#JoinUs" eventKey="link-1">
@@ -49,23 +52,29 @@ function Home() {
               </home.Nav.Link>
             </home.Nav.Item>
             <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" eventKey="link-4">Donate</home.Nav.Link>
+              <home.Nav.Link id="linkitems" eventKey="link-4">
+                Donate
+              </home.Nav.Link>
             </home.Nav.Item>
           </home.Nav>
         </home.Container>
       </div>
       <a name="Home"></a>
       <div className="firstsection">
-        <home.Carousel>
-          <home.CarouselItem className="carousel_section bg-img"></home.CarouselItem>
-          <home.CarouselItem className="carousel_section bg-img1"></home.CarouselItem>
-          <home.CarouselItem className="carousel_section bg-img2"></home.CarouselItem>
-          <home.CarouselItem className="carousel_section bg-img3"></home.CarouselItem>
-          <home.CarouselItem className="carousel_section bg-img4"></home.CarouselItem>
-        </home.Carousel>
+        <rev.Zoom delay={200}>
+          <home.Carousel>
+            <home.CarouselItem className="carousel_section bg-img"></home.CarouselItem>
+            <home.CarouselItem className="carousel_section bg-img1"></home.CarouselItem>
+            <home.CarouselItem className="carousel_section bg-img2"></home.CarouselItem>
+            <home.CarouselItem className="carousel_section bg-img3"></home.CarouselItem>
+            <home.CarouselItem className="carousel_section bg-img4"></home.CarouselItem>
+          </home.Carousel>
+        </rev.Zoom>
         <home.Container>
           <home.Row>
+          
             <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
+            <rev.Zoom>
               <div>
                 <div className="welcome">Welcome to</div>
                 <div className="title">Harold Mbati Foundation</div>
@@ -80,7 +89,9 @@ function Home() {
                   </button>
                 </div>
               </div>
+              </rev.Zoom>
             </home.Col>
+            
           </home.Row>
         </home.Container>
       </div>
@@ -139,8 +150,8 @@ function Home() {
                   </p>
                   <div>
                     <p className="advice text-center">
-                      We are glad to invite you to partner with us through
-                      your time and service
+                      We are glad to invite you to partner with us through your
+                      time and service
                     </p>
                     <p className="advice">#WeValueYourSacrifice</p>
                   </div>
