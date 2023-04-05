@@ -56,6 +56,17 @@ function Donate() {
           </donate.Container>
         </div>
       </div>
+      <donate.Container>
+        <div className="mx-auto weare">
+          <div>
+            Ways to make Your Contribution
+            <div className="underline3 mx-auto"></div>
+          </div>
+        </div>
+        <donate.Row>
+          <donate.Col lg={3}></donate.Col>
+        </donate.Row>
+      </donate.Container>
     </div>
   );
 }
