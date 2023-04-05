@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import * as donate from "react-bootstrap";
 import logo from "../../Images/logo.png";
 import { MdDoubleArrow } from "react-icons/md";
-import './Donate.css';
+import "./Donate.css";
 
 function Donate() {
   return (
@@ -65,6 +65,26 @@ function Donate() {
         </div>
         <donate.Row>
           <donate.Col lg={3}></donate.Col>
+        </donate.Row>
+      </donate.Container>
+
+      <donate.Container>
+        <donate.Row>
+          <donate.Col lg={4} className="mx-auto">
+            <donate.Card>
+              <donate.Card.Body>
+                <div>
+                <div>
+                  <div>icon</div>
+                  <div>By phone</div>
+                  <div>
+                    content
+                  </div>
+                </div>
+                </div>
+              </donate.Card.Body>
+            </donate.Card>
+          </donate.Col>
         </donate.Row>
       </donate.Container>
     </div>
