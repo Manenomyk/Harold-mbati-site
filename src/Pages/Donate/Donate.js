@@ -84,6 +84,25 @@ function Donate() {
                         className="d-block w-50"
                         alt="Phone image"
                       />
+                    </div >
+                    <div>By phone</div>
+                  </div>
+                </div>
+                <div>content</div>
+              </donate.Card.Body>
+            </donate.Card>
+          </donate.Col>
+          <donate.Col lg={4} className="mx-auto">
+            <donate.Card>
+              <donate.Card.Body>
+                <div className="donateways">
+                  <div>
+                    <div className="donateicon">
+                    <donate.Image
+                        src={pay}
+                        className="d-block w-50"
+                        alt="Phone image"
+                      />
                     </div>
                     <div>By phone</div>
                   </div>
@@ -97,20 +116,13 @@ function Donate() {
               <donate.Card.Body>
                 <div className="donateways">
                   <div>
-                    <div>icon</div>
-                    <div>By phone</div>
-                  </div>
-                </div>
-                <div>content</div>
-              </donate.Card.Body>
-            </donate.Card>
-          </donate.Col>
-          <donate.Col lg={4} className="mx-auto">
-            <donate.Card>
-              <donate.Card.Body>
-                <div className="donateways">
-                  <div>
-                    <div>icon</div>
+                    <div className="donateicon">
+                    <donate.Image
+                        src={bank}
+                        className="d-block w-50"
+                        alt="Phone image"
+                      />
+                    </div>
                     <div>By phone</div>
                   </div>
                 </div>
