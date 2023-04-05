@@ -73,45 +73,39 @@ function Donate() {
           <donate.Col lg={4} className="mx-auto">
             <donate.Card>
               <donate.Card.Body>
-                <div>
-                <div>
-                  <div>icon</div>
-                  <div>By phone</div>
+                <div  className="donateways">
                   <div>
-                    content
+                    <div>icon</div>
+                    <div>By phone</div>
                   </div>
                 </div>
-                </div>
+                <div>content</div>
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
           <donate.Col lg={4} className="mx-auto">
             <donate.Card>
               <donate.Card.Body>
-                <div>
-                <div>
-                  <div>icon</div>
-                  <div>By phone</div>
+                <div className="donateways">
                   <div>
-                    content
+                    <div>icon</div>
+                    <div>By phone</div>
                   </div>
                 </div>
-                </div>
+                <div>content</div>
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
           <donate.Col lg={4} className="mx-auto">
             <donate.Card>
               <donate.Card.Body>
-                <div>
-                <div>
-                  <div>icon</div>
-                  <div>By phone</div>
+                <div className="donateways">
                   <div>
-                    content
+                    <div>icon</div>
+                    <div>By phone</div>
                   </div>
                 </div>
-                </div>
+                <div>content</div>
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>

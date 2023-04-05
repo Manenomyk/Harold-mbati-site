@@ -11,3 +11,9 @@
     background-color: #c5222a;
     margin-bottom: 30px;
 }
+.donateways{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
