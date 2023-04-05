@@ -1,11 +1,13 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import * as donate from "react-bootstrap"
+import React from "react";
+import { Helmet } from "react-helmet";
+import * as donate from "react-bootstrap";
+import logo from "../../Images/logo.png";
+import { MdDoubleArrow } from "react-icons/md";
 
 function Donate() {
   return (
     <div>
-        <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Harold Mbati Foundation</title>
         <link rel="canonical" href="http://mysite.com/example" />
@@ -34,8 +36,27 @@ function Donate() {
           </donate.Nav>
         </donate.Container>
       </div>
+      <donate.Container className="logo">
+        <donate.Row>
+          <donate.Col lg={3} className="logo_col">
+            <donate.Image src={logo} className="logo-img" />
+          </donate.Col>
+        </donate.Row>
+      </donate.Container>
+      <div className="topimagesect">
+        <div className="topimage">
+          <donate.Container>
+            <div className="abouttopdiv">
+              <a href="/" className="tohome">
+                Home <MdDoubleArrow />
+              </a>
+            </div>
+            <div className="aboutcontdiv">Make Donation</div>
+          </donate.Container>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Donate
+export default Donate;
