@@ -84,8 +84,8 @@ function Donate() {
                         className="d-block w-50"
                         alt="Phone image"
                       />
-                    </div >
-                    <div>By phone</div>
+                    </div>
+                    <div className="sendmoney">Via M-pesa Send Money</div>
                   </div>
                 </div>
                 <div>content</div>
@@ -98,13 +98,13 @@ function Donate() {
                 <div className="donateways">
                   <div>
                     <div className="donateicon">
-                    <donate.Image
+                      <donate.Image
                         src={pay}
                         className="d-block w-50"
                         alt="Phone image"
                       />
                     </div>
-                    <div>By phone</div>
+                    <div className="paybill">Via M-pesa Paybill</div>
                   </div>
                 </div>
                 <div>content</div>
@@ -117,13 +117,13 @@ function Donate() {
                 <div className="donateways">
                   <div>
                     <div className="donateicon">
-                    <donate.Image
+                      <donate.Image
                         src={bank}
                         className="d-block w-50"
                         alt="Phone image"
                       />
                     </div>
-                    <div>By phone</div>
+                    <div className="bank">Through Bank Transfer</div>
                   </div>
                 </div>
                 <div>content</div>
