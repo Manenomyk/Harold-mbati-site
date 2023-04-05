@@ -85,7 +85,12 @@ function Donate() {
                         alt="Phone image"
                       />
                     </div>
-                    <div className="sendmoney">Via M-pesa Send Money</div>
+                    <div className="payment">
+                      <div>
+                        Via M-pesa Send Money
+                        <div className="underline0 mx-auto"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div>content</div>
@@ -104,7 +109,12 @@ function Donate() {
                         alt="Phone image"
                       />
                     </div>
-                    <div className="paybill">Via M-pesa Paybill</div>
+                    <div className="payment">
+                      <div>
+                        Via M-pesa Paybill
+                        <div className="underline0 mx-auto"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div>content</div>
@@ -123,7 +133,12 @@ function Donate() {
                         alt="Phone image"
                       />
                     </div>
-                    <div className="bank">Through Bank Transfer</div>
+                    <div className="payment">
+                      <div>
+                        Through Bank Transfer
+                        <div className="underline0 mx-auto"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div>content</div>
