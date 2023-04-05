@@ -72,26 +72,24 @@ function Home() {
         </rev.Zoom>
         <home.Container>
           <home.Row>
-          
             <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
-            <rev.Zoom>
-              <div>
-                <div className="welcome">Welcome to</div>
-                <div className="title">Harold Mbati Foundation</div>
-                <div className="homebtn">
-                  <button className="btn btn-success mt-4 mb-3 ">
-                    <a
-                      href="/about"
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      Know Us More
-                    </a>
-                  </button>
+              <rev.Zoom>
+                <div>
+                  <div className="welcome">Welcome to</div>
+                  <div className="title">Harold Mbati Foundation</div>
+                  <div className="homebtn">
+                    <button className="btn btn-success mt-4 mb-3 ">
+                      <a
+                        href="/about"
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        Know Us More
+                      </a>
+                    </button>
+                  </div>
                 </div>
-              </div>
               </rev.Zoom>
             </home.Col>
-            
           </home.Row>
         </home.Container>
       </div>
@@ -178,7 +176,9 @@ function Home() {
                     <p className="advice">#FeelGreatlyAppreciated</p>
                   </div>
                   <div className="advice">
-                    <button className="btn btn-success">Make Donation</button>
+                    <a href="/Donate">
+                      <button className="btn btn-success">Make Donation</button>
+                    </a>
                   </div>
                 </home.Card.Body>
               </home.Card>
