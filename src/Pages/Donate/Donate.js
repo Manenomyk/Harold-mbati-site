@@ -100,6 +100,21 @@ function Donate() {
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
+          <donate.Col lg={4} className="mx-auto">
+            <donate.Card>
+              <donate.Card.Body>
+                <div>
+                <div>
+                  <div>icon</div>
+                  <div>By phone</div>
+                  <div>
+                    content
+                  </div>
+                </div>
+                </div>
+              </donate.Card.Body>
+            </donate.Card>
+          </donate.Col>
         </donate.Row>
       </donate.Container>
     </div>
