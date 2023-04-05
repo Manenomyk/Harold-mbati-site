@@ -266,7 +266,7 @@ function About() {
               </div>
             </about.Col>
           </about.Row>
-          <hr />
+          <hr className="pb-4" />
         </about.Container>
       </div>
       <about.Container className="missionstate">
