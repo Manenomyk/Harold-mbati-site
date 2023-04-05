@@ -43,3 +43,7 @@
     display: flex;
     margin-bottom: 4rem;
 }
+.donatecont{
+    display: flex;
+    justify-content: center;
+}

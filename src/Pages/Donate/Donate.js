@@ -94,7 +94,9 @@ function Donate() {
                     </div>
                   </div>
                 </div>
-                <div>content</div>
+                <div className="donatecont">
+                    <div>content</div>
+                </div>
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
@@ -118,7 +120,9 @@ function Donate() {
                     </div>
                   </div>
                 </div>
-                <div>content</div>
+                <div className="donatecont">
+                    <div>content</div>
+                </div>
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
@@ -142,7 +146,9 @@ function Donate() {
                     </div>
                   </div>
                 </div>
-                <div>content</div>
+                <div className="donatecont">
+                    <div>content</div>
+                </div>
               </donate.Card.Body>
             </donate.Card>
           </donate.Col>
