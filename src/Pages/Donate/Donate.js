@@ -56,7 +56,7 @@ function Donate() {
                 Home <MdDoubleArrow />
               </a>
             </div>
-            <div className="aboutcontdiv">Make Donation</div>
+            <div className="aboutcontdiv">Make Donations</div>
           </donate.Container>
         </div>
       </div>
