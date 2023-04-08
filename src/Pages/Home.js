@@ -11,6 +11,7 @@ import { SiSololearn } from "react-icons/si";
 import { MdSettingsSuggest } from "react-icons/md";
 import { Helmet } from "react-helmet";
 import * as rev from "react-reveal";
+import { MdDoubleArrow } from "react-icons/md";
 
 function Home() {
   return (
@@ -62,13 +63,25 @@ function Home() {
       <a name="Home"></a>
       <div className="firstsection">
         <rev.Zoom delay={200}>
-          <home.Carousel>
+          {/* <home.Carousel>
             <home.CarouselItem className="carousel_section bg-img"></home.CarouselItem>
             <home.CarouselItem className="carousel_section bg-img1"></home.CarouselItem>
             <home.CarouselItem className="carousel_section bg-img2"></home.CarouselItem>
             <home.CarouselItem className="carousel_section bg-img3"></home.CarouselItem>
             <home.CarouselItem className="carousel_section bg-img4"></home.CarouselItem>
-          </home.Carousel>
+          </home.Carousel> */}
+          <div className="topimagesect11">
+            <div className="topimage11">
+              {/* <home.Container>
+                <div className="abouttopdiv">
+                  <a href="/" className="tohome">
+                    Home <MdDoubleArrow />
+                  </a>
+                </div>
+                <div className="aboutcontdiv">About Us</div>
+              </home.Container> */}
+            </div>
+          </div>
         </rev.Zoom>
         <home.Container>
           <home.Row>
