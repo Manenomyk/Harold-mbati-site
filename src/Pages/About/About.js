@@ -190,16 +190,17 @@ function About() {
               <div className="youthem">Mother Child Care</div>
               <div className="underline5 mx-auto"></div>
               <div>
-                From education to entrepreneurship, young people are slowly
+                {/* From education to entrepreneurship, young people are slowly
                 changing the community. At Harold Mbati Foundation, we believe
                 that the youth are catalysts for development, and thus they
-                deserve a space in the community.
+                deserve a space in the community. */}
                 <br />
-                <br /> As frontline youth advocacy and policy-oriented
+                <br /> 
+                {/* As frontline youth advocacy and policy-oriented
                 organization programming for Kenya. HMF provides a platform for
                 young people to interact, learn, collaborate, and develop
                 leadership and life skills and effect social change in the
-                community.
+                community. */}
               </div>
             </about.Col>
           </about.Row>
