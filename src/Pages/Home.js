@@ -17,7 +17,7 @@ function MyVerticallyCenteredModal(props) {
   return (
     <home.Modal
       {...props}
-      size="lg"
+      size="md"
       aria-labelledby="contained-modal-title-vcenter"
       centered
       id="imagemodal"
@@ -197,12 +197,12 @@ function Home() {
                     <p className="advice">#WeValueYourSacrifice</p>
                   </div>
                   <div className="advice">
-                    <button className="btn btn-primary">Reach Us Out</button>
+                    {/* <button className="btn btn-primary">Reach Us Out</button> */}
                     <home.Button
                       variant="primary"
                       onClick={() => setModalShow(true)}
                     >
-                      Launch
+                      Reach Us Out
                     </home.Button>
 
                     <MyVerticallyCenteredModal
