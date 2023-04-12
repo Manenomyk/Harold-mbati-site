@@ -30,7 +30,7 @@ function MyVerticallyCenteredModal(props) {
           Full Name
           <input
             className="form-control shadow-none mb-4"
-            placeholder="Enter name"
+            placeholder="Enter your name"
             type="text"
           />
         </div>
