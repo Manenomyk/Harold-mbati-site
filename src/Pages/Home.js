@@ -29,6 +29,7 @@ function MyVerticallyCenteredModal(props) {
           Full Name
           <input
             className="form-control shadow-none mb-4"
+            name="name"
             placeholder="Enter your name"
             type="text"
           />
@@ -37,6 +38,7 @@ function MyVerticallyCenteredModal(props) {
           Email Adress
           <input
             className="form-control shadow-none mb-4"
+            name="email"
             placeholder="Enter Email Address"
             type="email"
           />
@@ -46,6 +48,7 @@ function MyVerticallyCenteredModal(props) {
           <textarea
             rows={4}
             className="form-control shadow-none mb-4"
+            name="massage"
             placeholder="Share your message"
             type="text"
           />
@@ -53,7 +56,7 @@ function MyVerticallyCenteredModal(props) {
       </home.Modal.Body>
       <home.Modal.Footer>
         <div>
-          <button className="btn btn-primary">Send message</button>
+          <button type="submit" className="btn btn-primary">Send message</button>
         </div>
       </home.Modal.Footer>
     </home.Modal>
