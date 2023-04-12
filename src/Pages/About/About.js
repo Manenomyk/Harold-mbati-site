@@ -275,9 +275,9 @@ function About() {
           <about.Col lg={4} className="mx-auto mb-4">
             <div>
               <div className="youthem">
-                <div>
-                  Our Mission
-                  <div className="underline5 mx-auto"></div>
+                <div className="">
+                   Mission
+                  <div className="underlin mx-auto"></div>
                 </div>
               </div>
               <div className="mx-auto text-center">
@@ -289,9 +289,9 @@ function About() {
           <about.Col lg={4} className="mx-auto mb-4">
             <div>
               <div className="youthem">
-                <div>
-                  Our Vision
-                  <div className="underline5 mx-auto"></div>
+                <div className="">
+                   Vision
+                  <div className="underlin mx-auto"></div>
                 </div>
               </div>
               <div className="mx-auto text-center">
