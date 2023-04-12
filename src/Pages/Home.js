@@ -36,12 +36,9 @@ function MyVerticallyCenteredModal(props) {
         </div>
         <div>
           Voluteer/Contribution
-          <input className="form-control shadow-none mb-4" type="text" />
+          <textarea rows={4} className="form-control shadow-none mb-4" type="text" />
         </div>
-        <div>
-          Name
-          <input className="form-control shadow-none mb-4" type="text" />
-        </div>
+        
       </home.Modal.Body>
       {/* <home.Modal.Footer></home.Modal.Footer> */}
     </home.Modal>
