@@ -27,20 +27,24 @@ function MyVerticallyCenteredModal(props) {
       </home.Modal.Header>
       <home.Modal.Body>
         <div>
-          Name
-          <input className="form-control shadow-none mb-4" type="text" />
+          Full Name
+          <input className="form-control shadow-none mb-4" placeholder="Enter name" type="text" />
         </div>
         <div>
           Email Adress
-          <input className="form-control shadow-none mb-4" type="email" />
+          <input className="form-control shadow-none mb-4" placeholder="Enter Email Address" type="email" />
         </div>
         <div>
-          Voluteer/Contribution
-          <textarea rows={4} className="form-control shadow-none mb-4" type="text" />
+          Voluteer/Contributor message
+          <textarea rows={4} className="form-control shadow-none mb-4" placeholder="Share your message" type="text" />
         </div>
         
       </home.Modal.Body>
-      {/* <home.Modal.Footer></home.Modal.Footer> */}
+      <home.Modal.Footer>
+        <div>
+          <button className="btn btn-primary">Send message</button>
+        </div>
+      </home.Modal.Footer>
     </home.Modal>
   );
 }
