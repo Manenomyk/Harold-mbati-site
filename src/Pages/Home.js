@@ -62,7 +62,7 @@ function Home() {
       </div>
       <a name="Home"></a>
       <div className="firstsection">
-        <rev.Zoom delay={200}>
+        <rev.Slide top delay={200}>
           {/* <home.Carousel>
             <home.CarouselItem className="carousel_section bg-img"></home.CarouselItem>
             <home.CarouselItem className="carousel_section bg-img1"></home.CarouselItem>
@@ -82,7 +82,7 @@ function Home() {
               </home.Container> */}
             </div>
           </div>
-        </rev.Zoom>
+        </rev.Slide>
         <home.Container>
           <home.Row>
             <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
