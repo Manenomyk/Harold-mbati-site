@@ -13,6 +13,26 @@ import { Helmet } from "react-helmet";
 import * as rev from "react-reveal";
 import { MdDoubleArrow } from "react-icons/md";
 
+function MyVerticallyCenteredModal(props) {
+  return (
+    <home.Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+      id="imagemodal"
+    >
+      <home.Modal.Header closeButton>
+        <home.Modal.Title id="contained-modal-title-vcenter"></home.Modal.Title>
+      </home.Modal.Header>
+      <home.Modal.Body>
+        <home.Image src="../../Images/i6.jpg" className="ala" alt="image" />
+      </home.Modal.Body>
+      {/* <home.Modal.Footer></home.Modal.Footer> */}
+    </home.Modal>
+  );
+}
+
 function Home() {
   return (
     <div>
