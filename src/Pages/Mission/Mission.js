@@ -15,7 +15,7 @@ function Mission() {
         <mission.Row>
           <div className="headline">
             <div>
-              Our Main Focus
+              What We Do
               <div className="underline mx-auto"></div>
             </div>
           </div>
