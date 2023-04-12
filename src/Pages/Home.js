@@ -257,12 +257,12 @@ function Home() {
                     </div>
                   </div>
                   <div className="advice">
-                    <button className="btn btn-primary">Share your idea</button>
+                    {/* <button className="btn btn-primary">Share your idea</button> */}
                     <home.Button
                       variant="primary"
                       onClick={() => setModalShow(true)}
                     >
-                      Reach Us Out
+                      Share your idea
                     </home.Button>
 
                     <MyVerticallyCenteredModal
