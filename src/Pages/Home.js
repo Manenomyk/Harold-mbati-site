@@ -26,7 +26,22 @@ function MyVerticallyCenteredModal(props) {
         <home.Modal.Title id="contained-modal-title-vcenter"></home.Modal.Title>
       </home.Modal.Header>
       <home.Modal.Body>
-        <home.Image src="../../Images/i6.jpg" className="ala" alt="image" />
+        <div>
+          Name
+          <input type="text" />
+        </div>
+        <div>
+          Email Adress
+          <input type="email" />
+        </div>
+        <div>
+          Voluteer/Contribution
+          <input type="text" />
+        </div>
+        <div>
+          Name
+          <input type="text" />
+        </div>
       </home.Modal.Body>
       {/* <home.Modal.Footer></home.Modal.Footer> */}
     </home.Modal>
