@@ -28,17 +28,29 @@ function MyVerticallyCenteredModal(props) {
       <home.Modal.Body>
         <div>
           Full Name
-          <input className="form-control shadow-none mb-4" placeholder="Enter name" type="text" />
+          <input
+            className="form-control shadow-none mb-4"
+            placeholder="Enter name"
+            type="text"
+          />
         </div>
         <div>
           Email Adress
-          <input className="form-control shadow-none mb-4" placeholder="Enter Email Address" type="email" />
+          <input
+            className="form-control shadow-none mb-4"
+            placeholder="Enter Email Address"
+            type="email"
+          />
         </div>
         <div>
           Voluteer/Contributor message
-          <textarea rows={4} className="form-control shadow-none mb-4" placeholder="Share your message" type="text" />
+          <textarea
+            rows={4}
+            className="form-control shadow-none mb-4"
+            placeholder="Share your message"
+            type="text"
+          />
         </div>
-        
       </home.Modal.Body>
       <home.Modal.Footer>
         <div>
@@ -285,7 +297,6 @@ function Home() {
                       show={modalShow}
                       onHide={() => setModalShow(false)}
                     />
-                  
                   </div>
                 </home.Card.Body>
               </home.Card>
