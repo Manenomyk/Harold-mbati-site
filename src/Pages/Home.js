@@ -20,7 +20,6 @@ function MyVerticallyCenteredModal(props) {
       size="md"
       aria-labelledby="contained-modal-title-vcenter"
       centered
-      id="imagemodal"
     >
       <home.Modal.Header closeButton>
         <home.Modal.Title id="contained-modal-title-vcenter"></home.Modal.Title>
@@ -62,15 +61,6 @@ function MyVerticallyCenteredModal(props) {
 }
 
 function Home() {
-  document.addEventListener("click", function (e) {
-    if (e.target.classList.contains("imagegala")) {
-      const src = e.target.getAttribute("src");
-      console.log(src);
-      // document.querySelector(".ala").src = src;
-      // const myModal = new gala.Modal(document.getElementById('imagemodal'));
-      // myModal.show();
-    }
-  });
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
