@@ -8,6 +8,7 @@ import youth from "../../Images/youth.svg";
 import ball from "../../Images/ball.svg";
 import school from "../../Images/school.svg";
 import mom from "../../Images/mom.svg";
+import * as rev from "react-reveal";
 import { Helmet } from "react-helmet";
 
 function About() {
@@ -54,18 +55,22 @@ function About() {
           </about.Col>
         </about.Row>
       </about.Container>
+      <rev.Slide top delay={200}>
       <div className="topimagesect">
         <div className="topimage">
           <about.Container>
+          <rev.Zoom delay={400}>
             <div className="abouttopdiv">
               <a href="/" className="tohome">
                 Home <MdDoubleArrow />
               </a>
             </div>
             <div className="aboutcontdiv">About Us</div>
+            </rev.Zoom>
           </about.Container>
         </div>
       </div>
+      </rev.Slide>
 
       <about.Container>
         <div className="mx-auto weare">
