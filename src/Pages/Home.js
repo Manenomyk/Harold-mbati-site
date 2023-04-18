@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef, useState} from 'react';
 import "./Home.css";
 import * as home from "react-bootstrap";
 import logo from "../Images/logo.png";
