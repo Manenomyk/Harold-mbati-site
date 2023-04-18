@@ -194,14 +194,14 @@ function Gallery() {
             />
           </gala.Col>
         </gala.Row>
-        <gala.Button variant="primary" onClick={() => setModalShow(true)}>
+        {/* <gala.Button variant="primary" onClick={() => setModalShow(true)}>
           Launch
         </gala.Button>
 
         <MyVerticallyCenteredModal
           show={modalShow}
           onHide={() => setModalShow(false)}
-        />
+        /> */}
       </gala.Container>
 
       <div className="ContactSection">
