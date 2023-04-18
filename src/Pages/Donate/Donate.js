@@ -59,8 +59,9 @@ function Donate() {
                 Home <MdDoubleArrow />
               </a>
             </div>
-            </rev.Zoom>
+            
             <div className="aboutcontdiv">Make Donations</div>
+            </rev.Zoom>
           </donate.Container>
         </div>
       </div>
