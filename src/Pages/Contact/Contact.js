@@ -93,11 +93,13 @@ function Contact() {
       </contact.Container>
       <div className="footer">
         <contact.Container>
+        <rev.Slide left delay={400}>
           <div className="copy">
             <a href="https://bahaticodes.web.app" className="link" target='_blank'>
               &copy; BahatiCodes
             </a>
           </div>
+          </rev.Slide>
         </contact.Container>
       </div>
     </div>
