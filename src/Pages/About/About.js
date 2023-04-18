@@ -87,12 +87,14 @@ function About() {
       <about.Container className="aboutcontain">
         <about.Row>
           <about.Col lg={5} className="mx-auto">
+          <rev.Zoom delay={400}>
             <about.Image
               src={logo}
               className="d-block w-100"
               fluid
               alt="logo image"
             />
+            </rev.Zoom>
           </about.Col>
           <about.Col lg={6} className="mx-auto mb-5">
             <div>
