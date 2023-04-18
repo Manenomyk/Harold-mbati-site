@@ -7,6 +7,7 @@ import pay from "../../Images/pay.svg";
 import phone from "../../Images/phone.svg";
 import bank from "../../Images/bank.svg";
 import Contact from "../Contact/Contact";
+import * as rev from "react-reveal";
 import "./Donate.css";
 
 function Donate() {
@@ -48,18 +49,22 @@ function Donate() {
           </donate.Col>
         </donate.Row>
       </donate.Container>
+      <rev.Slide top delay={200}>
       <div className="topimagesect">
         <div className="topimage1">
           <donate.Container>
+          <rev.Zoom delay={400}>
             <div className="abouttopdiv">
               <a href="/" className="tohome">
                 Home <MdDoubleArrow />
               </a>
             </div>
+            </rev.Zoom>
             <div className="aboutcontdiv">Make Donations</div>
           </donate.Container>
         </div>
       </div>
+      </rev.Slide>
       <donate.Container>
         <div className="mx-auto weare1">
           <div>
