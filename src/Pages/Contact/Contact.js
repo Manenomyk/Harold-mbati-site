@@ -4,6 +4,7 @@ import * as contact from "react-bootstrap";
 import { IoCallSharp } from "react-icons/io5";
 import { IoMdChatboxes } from "react-icons/io";
 import { BsFacebook } from "react-icons/bs";
+import * as rev from "react-reveal";
 
 function Contact() {
   return (
@@ -30,7 +31,9 @@ function Contact() {
       </div>
       <contact.Container>
         <contact.Row>
+        
           <contact.Col lg={3} className="mx-auto cont1">
+          <rev.Zoom delay={200}>
             <div className="contents">
               <div>
                 <div className="contaicon">
@@ -49,8 +52,11 @@ function Contact() {
                 </div>
               </div>
             </div>
+            </rev.Zoom>
           </contact.Col>
+          
           <contact.Col lg={3} className="mx-auto cont1">
+          <rev.Zoom delay={200}>
             <div className="contents">
               <div>
                 <div className="contaicon">
@@ -62,8 +68,10 @@ function Contact() {
                 <div className="number">+254768 927895</div>
               </div>
             </div>
+            </rev.Zoom>
           </contact.Col>
           <contact.Col lg={3} className="mx-auto cont1">
+          <rev.Zoom delay={200}>
             <div className="contents">
               <div>
                 <div className="contaicon">
@@ -79,6 +87,7 @@ function Contact() {
                 </div>
               </div>
             </div>
+            </rev.Zoom>
           </contact.Col>
         </contact.Row>
       </contact.Container>
