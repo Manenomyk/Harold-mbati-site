@@ -12,8 +12,35 @@ import { MdSettingsSuggest } from "react-icons/md";
 import { Helmet } from "react-helmet";
 import * as rev from "react-reveal";
 import { MdDoubleArrow } from "react-icons/md";
+import emailjs from 'emailjs-com';
 
 function MyVerticallyCenteredModal(props) {
+  
+  const [successResponce,setSuccessResponce] =useState('');
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qk3ecbi', 'template_h2a286a', form.current, 'KFsuGcuTAtVQTcEYG')
+      .then((result) => {
+          console.log(result.text);
+
+         
+      }, (error) => {
+          console.log(error.text);
+      });
+
+
+
+      e.target.reset();
+      setSuccessResponce("Message sent successfully")
+      setTimeout(()=>{
+        setSuccessResponce('')
+      }, 2000);
+
+    };
   return (
     <home.Modal
       {...props}
