@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, { useRef, useState } from "react";
 import "./Home.css";
 import * as home from "react-bootstrap";
 import logo from "../Images/logo.png";
@@ -12,36 +12,39 @@ import { MdSettingsSuggest } from "react-icons/md";
 import { Helmet } from "react-helmet";
 import * as rev from "react-reveal";
 import { MdDoubleArrow } from "react-icons/md";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import { FaBars } from "react-icons/fa";
 
 function MyVerticallyCenteredModal(props) {
-  
-  const [successResponce,setSuccessResponce] =useState('');
+  const [successResponce, setSuccessResponce] = useState("");
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_qk3ecbi', 'template_h2a286a', form.current, 'KFsuGcuTAtVQTcEYG')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_qk3ecbi",
+        "template_h2a286a",
+        form.current,
+        "KFsuGcuTAtVQTcEYG"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-
-         
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
 
-
-
-      e.target.reset();
-      setSuccessResponce("Message sent successfully")
-      setTimeout(()=>{
-        setSuccessResponce('')
-      }, 2000);
-
-    };
+    e.target.reset();
+    setSuccessResponce("Message sent successfully");
+    setTimeout(() => {
+      setSuccessResponce("");
+    }, 2000);
+  };
   return (
     <home.Modal
       {...props}
@@ -84,7 +87,9 @@ function MyVerticallyCenteredModal(props) {
       </home.Modal.Body>
       <home.Modal.Footer>
         <div>
-          <button type="submit" className="btn btn-primary">Send message</button>
+          <button type="submit" className="btn btn-primary">
+            Send message
+          </button>
         </div>
       </home.Modal.Footer>
     </home.Modal>
@@ -104,120 +109,53 @@ function Home() {
           content="Awesome resort you need to checkout"
         />
       </Helmet>
+      <div className="navdiv">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label htmlFor="check" className="checkbtn">
+            <FaBars />
+          </label>
+          <label className="loo" htmlFor="">
+            <home.Image src={logo} className="logimg" fluid />
+          </label>
 
-      {/* <div>
-      <home.Navbar bg="light" expand="lg">
-      <home.Container>
-        <home.Navbar.Brand href="#home">React-Bootstrap</home.Navbar.Brand>
-        <home.Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <home.Navbar.Collapse id="basic-navbar-nav">
-          <div className="navbar justify-content-end">
-          <home.Nav className="me-auto">
-            <home.Nav.Link href="#home">Home</home.Nav.Link>
-            <home.Nav.Link href="#link">Link</home.Nav.Link>
-            <home.NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <home.NavDropdown.Item href="#action/3.1">Action</home.NavDropdown.Item>
-              <home.NavDropdown.Item href="#action/3.2">
-                Another action
-              </home.NavDropdown.Item>
-              <home.NavDropdown.Item href="#action/3.3">Something</home.NavDropdown.Item>
-              <home.NavDropdown.Divider />
-              <home.NavDropdown.Item href="#action/3.4">
-                Separated link
-              </home.NavDropdown.Item>
-            </home.NavDropdown>
-          </home.Nav>
-          </div>
-        </home.Navbar.Collapse>
-      </home.Container>
-    </home.Navbar>
-      </div> */}
-      <div className='navdiv'>
-            <nav >
-              <input type="checkbox" id='check'/>
-              <label htmlFor="check" className='checkbtn'>
-              <FaBars />
-              </label>
-              <label className='loo' htmlFor="">
-              <home.Image
-                src={logo}
-                className='logimg'
-                fluid
-                />
-              </label>
-              
-              <ul className='navdet'>
-                <li><a className='active' href="/">Who We Are</a></li>
-                <li><a href="#JoinUs">How To Help</a></li>
-                <li><a href="/Gallery">Gallery</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="/Donate">Donate</a></li>
-              </ul>
-            </nav>
-          </div>
-      {/* <div className="nav_section" id="nav_section"> */}
-      
-        {/* <home.Container className="nav_container">
-        
-          <home.Nav
-            className="justify-content-end"
-            variant="pills"
-            defaultActiveKey="/"
-          >
-            <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" href="/">
+          <ul className="navdet">
+            <li>
+              <a className="active" href="/">
                 Who We Are
-              </home.Nav.Link>
-            </home.Nav.Item>
-            <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" href="#JoinUs" eventKey="link-1">
-                How To Help
-              </home.Nav.Link>
-            </home.Nav.Item>
-            <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
-                Contact Us
-              </home.Nav.Link>
-            </home.Nav.Item>
-            <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" href="/Gallery" eventKey="link-3">
-                Gallery
-              </home.Nav.Link>
-            </home.Nav.Item>
-            <home.Nav.Item className="link_items">
-              <home.Nav.Link id="linkitems" href="/Donate" eventKey="link-4">
-                Donate
-              </home.Nav.Link>
-            </home.Nav.Item>
-          </home.Nav>
-        </home.Container> */}
-      {/* </div> */}
+              </a>
+            </li>
+            <li>
+              <a href="#JoinUs">How To Help</a>
+            </li>
+            <li>
+              <a href="/Gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+            <li>
+              <a href="/Donate">Donate</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <a name="Home"></a>
       <div className="firstsection">
         <rev.Slide top delay={200}>
-          {/* <home.Carousel>
-            <home.CarouselItem className="carousel_section bg-img"></home.CarouselItem>
-            <home.CarouselItem className="carousel_section bg-img1"></home.CarouselItem>
-            <home.CarouselItem className="carousel_section bg-img2"></home.CarouselItem>
-            <home.CarouselItem className="carousel_section bg-img3"></home.CarouselItem>
-            <home.CarouselItem className="carousel_section bg-img4"></home.CarouselItem>
-          </home.Carousel> */}
           <div className="topimagesect11">
-            <div className="topimage11">
-              {/* <home.Container>
-                <div className="abouttopdiv">
-                  <a href="/" className="tohome">
-                    Home <MdDoubleArrow />
-                  </a>
-                </div>
-                <div className="aboutcontdiv">About Us</div>
-              </home.Container> */}
-            </div>
+            <div className="topimage11"></div>
           </div>
         </rev.Slide>
         <home.Container>
           <home.Row>
-            <home.Col lg={6} xs={11} md={10} className="mx-auto sect1-image ">
+            <home.Col
+              lg={6}
+              sm={12}
+              xs={11}
+              md={10}
+              className="mx-auto sect1-image "
+            >
               <rev.Zoom>
                 <div>
                   <div className="welcome">Welcome to</div>
