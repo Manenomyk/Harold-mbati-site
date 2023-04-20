@@ -16,6 +16,7 @@ import i12 from "../../Images/i12.JPG";
 import i13 from "../../Images/i13.JPG";
 import i6 from "../../Images/i6.jpg";
 import { Helmet } from "react-helmet";
+import { FaBars } from "react-icons/fa";
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -59,31 +60,29 @@ function Gallery() {
           content="Awesome resort you need to checkout"
         />
       </Helmet>
-      <div className="nav_section" id="nav_section">
-        <gala.Container className="nav_container">
-          <gala.Nav
-            className="justify-content-end"
-            variant="pills"
-            defaultActiveKey="/"
-          >
-            <gala.Nav.Item className="link_items">
-              <gala.Nav.Link id="linkitems" href="/">
-                Home
-              </gala.Nav.Link>
-            </gala.Nav.Item>
-            <gala.Nav.Item className="link_items">
-              <gala.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
-                Contact Us
-              </gala.Nav.Link>
-            </gala.Nav.Item>
-            <gala.Nav.Item className="link_items">
-              <gala.Nav.Link id="linkitems" href="/Donate" eventKey="link-3">
-                Donate
-              </gala.Nav.Link>
-            </gala.Nav.Item>
-          </gala.Nav>
-        </gala.Container>
-      </div>
+      <div className='navdiv'>
+            <nav >
+              <input type="checkbox" id='check'/>
+              <label htmlFor="check" className='checkbtn'>
+              <FaBars />
+              </label>
+              <label className='loo' htmlFor="">
+              <gala.Image
+                src={logo}
+                className='logimg'
+                fluid
+                />
+              </label>
+              
+              <ul className='navdet'>
+                <li><a href="/">Who We Are</a></li>
+                <li><a href="#JoinUs">How To Help</a></li>
+                <li><a className='active' href="/Gallery">Gallery</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="/Donate">Donate</a></li>
+              </ul>
+            </nav>
+          </div>
       <gala.Container className="logo">
         <gala.Row>
           <gala.Col lg={3} className="logo_col">
