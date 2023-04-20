@@ -331,4 +331,11 @@ a.active{
     nav ul li a{
          font-size: 10px;
     }
+    label.loo{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 10px;
+        font-weight: bold;
+    }
 }

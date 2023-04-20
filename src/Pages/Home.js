@@ -116,7 +116,7 @@ function Home() {
             <FaBars />
           </label>
           <label className="loo" htmlFor="">
-            <home.Image src={logo} className="logimg" fluid />
+            <home.Image src={logo} className="logimg" fluid alt="imaga logo" />
           </label>
 
           <ul className="navdet">

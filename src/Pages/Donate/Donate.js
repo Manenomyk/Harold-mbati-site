@@ -8,6 +8,7 @@ import phone from "../../Images/phone.svg";
 import bank from "../../Images/bank.svg";
 import Contact from "../Contact/Contact";
 import * as rev from "react-reveal";
+import { FaBars } from "react-icons/fa";
 import "./Donate.css";
 
 function Donate() {
@@ -22,25 +23,36 @@ function Donate() {
           content="Awesome resort you need to checkout"
         />
       </Helmet>
-      <div className="nav_section" id="nav_section">
-        <donate.Container className="nav_container">
-          <donate.Nav
-            className="justify-content-end"
-            variant="pills"
-            defaultActiveKey="/"
-          >
-            <donate.Nav.Item className="link_items">
-              <donate.Nav.Link id="linkitems" href="/">
-                Home
-              </donate.Nav.Link>
-            </donate.Nav.Item>
-            <donate.Nav.Item className="link_items">
-              <donate.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
-                Contact Us
-              </donate.Nav.Link>
-            </donate.Nav.Item>
-          </donate.Nav>
-        </donate.Container>
+      <div className="navdiv">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label htmlFor="check" className="checkbtn">
+            <FaBars />
+          </label>
+          <label className="loo" htmlFor="">
+            <donate.Image src={logo} className="logimg" fluid />
+          </label>
+
+          <ul className="navdet">
+            <li>
+              <a className="active" href="/">
+                Who We Are
+              </a>
+            </li>
+            <li>
+              <a href="#JoinUs">How To Help</a>
+            </li>
+            <li>
+              <a href="/Gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+            <li>
+              <a href="/Donate">Donate</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <donate.Container className="logo">
         <donate.Row>
