@@ -105,10 +105,10 @@ border-radius: 50px;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
     color: #148b49;
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
     background: none;
 }
 
@@ -275,11 +275,11 @@ a.active{
     background-color: #1b9bff;
     transition: 0.5s;
 }
-a:hover{
+/* a:hover{
     background: #d0e7f8;
     color: #d0e7f8;
     transition: 0.5s;
-}
+} */
 .checkbtn{  
     font-size: 24px;
     color: white;
