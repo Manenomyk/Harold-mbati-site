@@ -163,7 +163,7 @@ function Home() {
         </rev.Slide>
         <home.Container>
           <home.Row>
-            <home.Col lg={6} xs={11} className="mx-auto sect1-image ">
+            <home.Col lg={6} xs={11} md={10} className="mx-auto sect1-image ">
               <rev.Zoom>
                 <div>
                   <div className="welcome">Welcome to</div>

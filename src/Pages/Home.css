@@ -208,3 +208,35 @@ border-radius: 50px;
 #linkitems{
     color: white;
 }
+
+@media (max-width: 500px) {
+    .welcome{
+        font-size: 24px;
+    }
+    .title{
+        font-size: 26px;
+
+    }
+    .topimage11{
+        background-image: url(../Images/i4.jpg);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 700px) {
+    .welcome{
+        font-size: 26px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .topimage11{
+        background-image: url(../Images/i4.jpg);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
