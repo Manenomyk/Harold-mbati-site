@@ -147,10 +147,11 @@ function Home() {
               </label>
               
               <ul className='navdet'>
-                <li><a className='active' href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">gallery</a></li>
-                <li><a href="">donate</a></li>
+                <li><a className='active' href="/">Who We Are</a></li>
+                <li><a href="#JoinUs">How To Help</a></li>
+                <li><a href="/Gallery">Gallery</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="/Donate">Donate</a></li>
               </ul>
             </nav>
           </div>
