@@ -38,11 +38,6 @@
     font-weight: 400;
 }
 
-.firstsection{
-    padding-top: 4rem;
-}
-
-
 .bg-img{
     background-image: url('../Images/i4.jpg');
 }
@@ -272,11 +267,15 @@ nav ul li a{
     padding: 8px 15px;
     border-radius: 3px;
 }
-a.active,a:hover{
+a.active{
     background-color: #1b9bff;
     transition: 0.5s;
 }
-
+a:hover{
+    background: #d0e7f8;
+    color: #d0e7f8;
+    transition: 0.5s;
+}
 .checkbtn{  
     font-size: 24px;
     color: white;
@@ -319,7 +318,6 @@ a.active,a:hover{
     }
     #check:checked ~ ul{
         left: 0;
-        
     } 
     a:hover{
         background: #d0e7f8;
