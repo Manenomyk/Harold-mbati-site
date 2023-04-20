@@ -37,7 +37,7 @@
     margin-bottom: 3rem;
 }
 .weare1{
-    /* padding-top: 5rem; */
+    padding-top: 5rem;
     font-size: 24px;
     justify-content: center;
     display: flex;
@@ -54,5 +54,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+    .weare1{
+        /* padding-top: 5rem; */
+        font-size: 24px;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 4rem;
     }
 }

@@ -118,3 +118,18 @@ background-color: #eff6fc;
     margin-bottom: 2rem;
     border-radius: 50%;
 }
+@media (max-width: 700px) {
+    .topimage{
+        background-image: url(../../Images/about.jpg);
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .weare{
+        /* padding-top: 5rem; */
+        font-size: 24px;
+        justify-content: center;
+        display: flex;
+    }
+}
