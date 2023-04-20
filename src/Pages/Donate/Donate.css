@@ -47,3 +47,12 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 700px) {
+    .topimage1{
+        background-image: url(../../Images/donate.jpg);
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
