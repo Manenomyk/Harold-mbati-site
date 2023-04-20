@@ -103,8 +103,49 @@ function Home() {
           content="Awesome resort you need to checkout"
         />
       </Helmet>
+
+      {/* <div>
+      <home.Navbar bg="light" expand="lg">
+      <home.Container>
+        <home.Navbar.Brand href="#home">React-Bootstrap</home.Navbar.Brand>
+        <home.Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <home.Navbar.Collapse id="basic-navbar-nav">
+          <div className="navbar justify-content-end">
+          <home.Nav className="me-auto">
+            <home.Nav.Link href="#home">Home</home.Nav.Link>
+            <home.Nav.Link href="#link">Link</home.Nav.Link>
+            <home.NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <home.NavDropdown.Item href="#action/3.1">Action</home.NavDropdown.Item>
+              <home.NavDropdown.Item href="#action/3.2">
+                Another action
+              </home.NavDropdown.Item>
+              <home.NavDropdown.Item href="#action/3.3">Something</home.NavDropdown.Item>
+              <home.NavDropdown.Divider />
+              <home.NavDropdown.Item href="#action/3.4">
+                Separated link
+              </home.NavDropdown.Item>
+            </home.NavDropdown>
+          </home.Nav>
+          </div>
+        </home.Navbar.Collapse>
+      </home.Container>
+    </home.Navbar>
+      </div> */}
+      <div className='navdiv'>
+            <nav>
+              <label htmlFor="">logo</label>
+              <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">gallery</a></li>
+                <li><a href="">donate</a></li>
+              </ul>
+            </nav>
+          </div>
       <div className="nav_section" id="nav_section">
-        <home.Container className="nav_container">
+      
+        {/* <home.Container className="nav_container">
+        
           <home.Nav
             className="justify-content-end"
             variant="pills"
@@ -136,7 +177,7 @@ function Home() {
               </home.Nav.Link>
             </home.Nav.Item>
           </home.Nav>
-        </home.Container>
+        </home.Container> */}
       </div>
       <a name="Home"></a>
       <div className="firstsection">
