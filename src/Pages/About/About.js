@@ -10,6 +10,7 @@ import school from "../../Images/school.svg";
 import mom from "../../Images/mom.svg";
 import * as rev from "react-reveal";
 import { Helmet } from "react-helmet";
+import { FaBars } from "react-icons/fa";
 
 function About() {
   return (
@@ -23,32 +24,37 @@ function About() {
           content="Awesome resort you need to checkout"
         />
       </Helmet>
-      <div className="nav_section" id="nav_section">
-        <about.Container className="nav_container">
-          <about.Nav
-            className="justify-content-end"
-            variant="pills"
-            defaultActiveKey="/"
-          >
-            <about.Nav.Item className="link_items">
-              <about.Nav.Link id="linkitems" href="/">
-                Home
-              </about.Nav.Link>
-            </about.Nav.Item>
-            <about.Nav.Item className="link_items">
-              <about.Nav.Link id="linkitems" href="#Contact" eventKey="link-2">
-                Contact Us
-              </about.Nav.Link>
-            </about.Nav.Item>
-            <about.Nav.Item className="link_items">
-              <about.Nav.Link id="linkitems" href="/Donate" eventKey="link-3">
-                Donate
-              </about.Nav.Link>
-            </about.Nav.Item>
-          </about.Nav>
-        </about.Container>
-      </div>
-      <about.Container className="logo">
+      <div className="navdiv">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label htmlFor="check" className="checkbtn">
+            <FaBars />
+          </label>
+          <label className="loo" htmlFor="">
+            <about.Image src={logo} className="logimg" fluid alt="imaga logo" />
+          </label>
+
+          <ul className="navdet">
+            <li>
+              <a className="active" href="/">
+                Who We Are
+              </a>
+            </li>
+            <li>
+              <a href="#JoinUs">How To Help</a>
+            </li>
+            <li>
+              <a href="/Gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+            <li>
+              <a href="/Donate">Donate</a>
+            </li>
+          </ul>
+        </nav>
+      </div> <about.Container className="logo">
         <about.Row>
           <about.Col lg={3} className="logo_col">
             <about.Image src={logo} className="logo-img" />
