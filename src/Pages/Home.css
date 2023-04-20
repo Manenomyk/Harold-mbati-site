@@ -323,8 +323,12 @@ a.active{
     #check:checked ~ ul{
         left: 0;
     } 
-    a:hover{
-        background: #d0e7f8;
-        color: #d0e7f8;
+    
+}
+
+@media (max-width: 700px) {
+    
+    nav ul li a{
+         font-size: 10px;
     }
 }
