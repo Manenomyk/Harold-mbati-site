@@ -138,7 +138,14 @@ function Home() {
               <label htmlFor="check" className='checkbtn'>
               <FaBars />
               </label>
-              <label className='loo' htmlFor="">logo</label>
+              <label className='loo' htmlFor="">
+              <home.Image
+                src={logo}
+                className='logimg'
+                fluid
+                />
+              </label>
+              
               <ul className='navdet'>
                 <li><a className='active' href="">home</a></li>
                 <li><a href="">about</a></li>

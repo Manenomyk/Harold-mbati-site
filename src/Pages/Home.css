@@ -228,7 +228,11 @@ border-radius: 50px;
 }
 
 
-
+.logimg{
+    width: 70px;
+    border-radius: 50%;
+    /* padding: 10px; */
+}
 .navdiv{
     background-color: #0a2049;
     height: 80px;
