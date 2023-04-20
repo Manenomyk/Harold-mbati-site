@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import * as rev from "react-reveal";
 import { MdDoubleArrow } from "react-icons/md";
 import emailjs from 'emailjs-com';
+import { FaBars } from "react-icons/fa";
 
 function MyVerticallyCenteredModal(props) {
   
@@ -133,6 +134,10 @@ function Home() {
       </div> */}
       <div className='navdiv'>
             <nav >
+              <input type="checkbox" id='check'/>
+              <label htmlFor="check" className='checkbtn'>
+              <FaBars />
+              </label>
               <label className='loo' htmlFor="">logo</label>
               <ul className='navdet'>
                 <li><a className='active' href="">home</a></li>
@@ -142,7 +147,7 @@ function Home() {
               </ul>
             </nav>
           </div>
-      <div className="nav_section" id="nav_section">
+      {/* <div className="nav_section" id="nav_section"> */}
       
         {/* <home.Container className="nav_container">
         
@@ -178,7 +183,7 @@ function Home() {
             </home.Nav.Item>
           </home.Nav>
         </home.Container> */}
-      </div>
+      {/* </div> */}
       <a name="Home"></a>
       <div className="firstsection">
         <rev.Slide top delay={200}>
