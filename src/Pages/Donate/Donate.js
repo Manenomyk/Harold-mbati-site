@@ -35,7 +35,7 @@ function Donate() {
 
           <ul className="navdet">
             <li>
-              <a className="active" href="/">
+              <a href="/">
                 Who We Are
               </a>
             </li>
@@ -49,7 +49,7 @@ function Donate() {
               <a href="#Contact">Contact</a>
             </li>
             <li>
-              <a href="/Donate">Donate</a>
+              <a className="active" href="/Donate">Donate</a>
             </li>
           </ul>
         </nav>
