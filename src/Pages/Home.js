@@ -132,10 +132,10 @@ function Home() {
     </home.Navbar>
       </div> */}
       <div className='navdiv'>
-            <nav>
-              <label htmlFor="">logo</label>
-              <ul>
-                <li><a href="">home</a></li>
+            <nav >
+              <label className='loo' htmlFor="">logo</label>
+              <ul className='navdet'>
+                <li><a className='active' href="">home</a></li>
                 <li><a href="">about</a></li>
                 <li><a href="">gallery</a></li>
                 <li><a href="">donate</a></li>
