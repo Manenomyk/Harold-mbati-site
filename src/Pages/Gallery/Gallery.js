@@ -60,29 +60,34 @@ function Gallery() {
           content="Awesome resort you need to checkout"
         />
       </Helmet>
-      <div className='navdiv'>
-            <nav >
-              <input type="checkbox" id='check'/>
-              <label htmlFor="check" className='checkbtn'>
-              <FaBars />
-              </label>
-              <label className='loo' htmlFor="">
-              <gala.Image
-                src={logo}
-                className='logimg'
-                fluid
-                />
-              </label>
-              
-              <ul className='navdet'>
-                <li><a href="/">Who We Are</a></li>
-                <li><a href="#JoinUs">How To Help</a></li>
-                <li><a className='active' href="/Gallery">Gallery</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="/Donate">Donate</a></li>
-              </ul>
-            </nav>
-          </div>
+      <div className="navdiv">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label htmlFor="check" className="checkbtn">
+            <FaBars />
+          </label>
+          <label className="loo" htmlFor="">
+            <gala.Image src={logo} className="logimg" fluid />
+          </label>
+
+          <ul className="navdet">
+            <li>
+              <a href="/">Who We Are</a>
+            </li>
+            <li>
+              <a className="active" href="/Gallery">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+            <li>
+              <a href="/Donate">Donate</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <gala.Container className="logo">
         <gala.Row>
           <gala.Col lg={3} className="logo_col">

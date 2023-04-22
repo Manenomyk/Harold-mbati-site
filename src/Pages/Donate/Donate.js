@@ -40,9 +40,6 @@ function Donate() {
               </a>
             </li>
             <li>
-              <a href="#JoinUs">How To Help</a>
-            </li>
-            <li>
               <a href="/Gallery">Gallery</a>
             </li>
             <li>
